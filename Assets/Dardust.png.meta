@@ -1,0 +1,4601 @@
+fileFormatVersion: 2
+guid: 8f80259e69c0243368a0ed27a840dba5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dardust_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2047
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f439c1ce63249e0a2f22361697a0b2
+      internalID: 149026807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2047
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba80e34b6bb3455480815ce607bdb40
+      internalID: 610795182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2047
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c5a20fb61d34e25a22ce961d78e901
+      internalID: 733192555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2047
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d6b9bb545e540eeb6bf3c8db49976c
+      internalID: -506042171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2047
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc99c45d9bcd4dad9c31168ef50e76c
+      internalID: -1622096898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2047
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40d4d1f8ec5244fba22015b77b1d3f3
+      internalID: 1040554265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2047
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408756e9e106440f2a87fd08ab9162b5
+      internalID: -1855356870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2067
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efed30e122b647759fd956f0da1ab3b
+      internalID: 873031661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1983
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ce2659e38e444e1b02776d7d6efd6c
+      internalID: 1123471276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1983
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2551b84d08be4abf991a60595eb73b3
+      internalID: -1471982375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1983
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d515f7b55d024a6581cc70f5e1ec22a
+      internalID: 588888866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1983
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602d0347e2f3346a49e86bbd357b0c35
+      internalID: 915238583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1983
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc11e56dbe9c748bc9462df9c588e6b8
+      internalID: -1106535022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1983
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c83851dbbfee4fe88643fb83f2d3130
+      internalID: -89479723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1983
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9071bb460754247ea817e6ebef51006c
+      internalID: -228487887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1919
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dae42810d66d4e39af34880736b569a
+      internalID: 1820948061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8177a8e1c3cb442338320c2a6ad1f69e
+      internalID: -1714539155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1919
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d50c062fcdd6457badfa0b734ba09b5
+      internalID: -607081193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1919
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c56288d6a646b2a14c9fde70a0887
+      internalID: -660281099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1919
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cafd8b69f89b4f8b999f73d2b8a6ec3
+      internalID: 154541240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_20
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1919
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e91342fa839e418d819e4d8a509ca50
+      internalID: -1695119805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1919
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab46ee6f86444c9f91a88b5ec5aa2ef
+      internalID: -308745724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1855
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c76b530de54c348725e2c5f69e917
+      internalID: -869974980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1855
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9af1da82012e46598fca68a6de2c10f
+      internalID: -1318370712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1855
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1f21c35c024f6995fb86486473a77
+      internalID: -112747729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1855
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41340b2d3144290bf90a1bf3b47404
+      internalID: 15014425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1855
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645819e74eaa94100a90dbc4a0153fcc
+      internalID: -1151108144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1855
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4054e8a1598984e55a672d6f1727d3c9
+      internalID: 1857342489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1855
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c46f27f249764699890616482bc3435
+      internalID: 2091194339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1791
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81a06180935b452a82f963e63fd7ac2
+      internalID: -2135212120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1791
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30e070a359df48b09651b039b87791a
+      internalID: 541722387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1791
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b100fd030fdd74ed7899ae4885521174
+      internalID: -146282164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1791
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8618f1bf9c1d4be295f5f3d5d9a1f39
+      internalID: -1537788018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_33
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1791
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2fb6fb92c4e41fa9381904bbb6ea24
+      internalID: -1642695501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_34
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1791
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fff17ef05ddb4cbea3ba3a1da12bfa6
+      internalID: -1775007653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1791
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7099ebcc5d8414c9b1d4c6635d41bf
+      internalID: -464620942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_36
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1791
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152772f08b49e493f8b51a7b6d3e945e
+      internalID: -168967232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c757697aee440a0bd3ce575b82646c
+      internalID: 1778818194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1727
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cb139c044824beebdfdf81e895466e
+      internalID: -889415349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1727
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbac159a3db8468d8531150cf83ca8a
+      internalID: 1023422386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6eac965c337048058cd11d069dd57ca
+      internalID: 1578968177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1727
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b54695c959c4d96a8e0ca74f34242f
+      internalID: -2098990709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_42
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1727
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826e728ea28524564b480c7b9748c832
+      internalID: 669631951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_43
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1727
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018b3005eac5a42c88e3a30daa4b177e
+      internalID: 1746733756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_44
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc7ee8649cbb449d9d80d7dede17030
+      internalID: 1695616324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd44d95b6ed5453e85a85c55bd58cca
+      internalID: 849020665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f54c8cfe897b43048454640d5bd4731
+      internalID: 49143695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1663
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dd709d51e4b4d15802a334a2500921
+      internalID: -674245785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_48
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1664
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd4764e56ec04de8a1b7c0585b42d97
+      internalID: -1147219461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1664
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e789ebb9dea4fb181613f42f65a09a
+      internalID: -675949970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_50
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1663
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ac300a94a67415695dc257dedfc14f
+      internalID: 1866806802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1664
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85305e6ef3e8a409a85ee3ee43566abb
+      internalID: 731161577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_52
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1664
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43be77c26121d4f9ba0cbdc5dd7546ec
+      internalID: 472655216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_53
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1599
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd77f56931d44a90bd2af584cb269d7
+      internalID: -259167536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_54
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1599
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c064d1e02c94594834d55cb59450c3
+      internalID: -426387553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_55
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1599
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ff520fd9b6348c989167929c365ed8
+      internalID: 33998721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_56
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1599
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c206706ec47c24ebd898c3675923a16f
+      internalID: 1764148492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_57
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1599
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beaa9cc5d6724c3cb966cab61c77f18
+      internalID: -2021794120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_58
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1599
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4010dbe0ccd174ee2badb742e9e67a75
+      internalID: 1561532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1599
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8099ef1cd20724457911cfae041af593
+      internalID: -779158306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_60
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1599
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0776f028e312c45d49284b708d249001
+      internalID: 2069410018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_61
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1535
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d551ec71d35004c3c8376531b1068db9
+      internalID: -927772093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_62
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1535
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9e06ea9ab384537bd6f5503aeeadbb
+      internalID: -378579273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_63
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1535
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239244e4709bd46aba983999209ee464
+      internalID: 1547917848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_64
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1535
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad24859cab464b51a6e17252ba835b7
+      internalID: -488242382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_65
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1535
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a08c4b6dbcc4ce781a8d2b3de08342
+      internalID: -1783845563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1535
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a061b073b953d489da394f008eb285e1
+      internalID: -316169824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_67
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1535
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3543a8251b1b440838b26a3d968d63c9
+      internalID: 1204281984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1535
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9de1a3e29d584f8aade9f2d384b11f0
+      internalID: -285211039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_69
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1535
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a36cd1ba9cc64e57b65b68c88a0fb92
+      internalID: 741820579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_70
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1471
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d768fca214173434a9bb450cd6ef8f0d
+      internalID: -870160169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1471
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7985a46029e9a4134981229cf5c54ff1
+      internalID: 415343970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1471
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df35a6c359c414887a6e64d01cbf49b1
+      internalID: -1930162690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_73
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1471
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75778f793777c44418578aa3774fa49e
+      internalID: -1487069166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_74
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1471
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c793fe393a1a14dbc8fdd9a93b716761
+      internalID: 63076944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_75
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1471
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9da4c150d4e947f3a57f37c650f7512
+      internalID: 207376819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_76
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1471
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac22548cfa83a4a8fb641127bba007ad
+      internalID: -1953537787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_77
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1471
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606ebc2cbcc6e47c398a20d3174f1781
+      internalID: 459551451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_78
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1471
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7841fcc250934567a3e8c1416d34382
+      internalID: 997572663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_79
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1407
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a1f103ce80d4c00a91821b8527dcc8
+      internalID: 523988788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_80
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1407
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fabf0d9164a408ea20648b4dd3021f
+      internalID: 1851417746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_81
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1407
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2058516ed6a043508aa589777cf7c4c
+      internalID: 1488320110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_82
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1407
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff773d488222476d925b1dfc1260255
+      internalID: -1399246053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_83
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1407
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5ce93eb8b984dbb9c19fd44dce502d
+      internalID: -100941389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_84
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1407
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59ba046d540845e3a6a0c9ccd592244
+      internalID: -585603312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_85
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1407
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a8550b0af654f9998a31e58b043883
+      internalID: -1243776029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_86
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1407
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0bc3527a992427fb19f02e069d13a3
+      internalID: -1748848464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_87
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1407
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cb340399de043f783b5f03a75999bf
+      internalID: 394476765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_88
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1343
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86df9f43bb6e244ebb935ba916b2b60d
+      internalID: 1977764637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_89
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1343
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456ce9f8a4c2943e58e7c6fe34a34145
+      internalID: -661055404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_90
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1343
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a721d674de26348a3bdd974c13634567
+      internalID: -1887151663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_91
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1343
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82152fe347b741019d5fbd3fa49be49
+      internalID: 314465778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_92
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1343
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0060cc97afad949668ffd04a6a147051
+      internalID: -1462654718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_93
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1343
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c16cf6311d4a488d1ff718771d495
+      internalID: -830492571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_94
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1343
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc6c670250b04408bf21c58d12de639
+      internalID: 491349179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_95
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1343
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9627bc10efd487ab5c2f9d2bad00ea
+      internalID: -756566730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_96
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1343
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aba802036b149948c29e05671b81aa
+      internalID: 187804075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_97
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1279
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae894f79cb8bc44d29f649d72a1a5d27
+      internalID: -1333084186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_98
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1279
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ba97cf66aad496982fff796add6a7e
+      internalID: -52641428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_99
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1279
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4bad43768ce49438e9585948d8215c
+      internalID: -940700104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_100
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1279
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c882b65a2617d4cc7a83667abb3aa81d
+      internalID: 960199158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_101
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1279
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a46b899ded5a4a59a3636ed170e03f9
+      internalID: -642248167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_102
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1279
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b77fe9770aa347e78c856e77cf6155a
+      internalID: 527019281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_103
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1215
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90ada43301734789bb47928080e3a24
+      internalID: 957638357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_104
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1215
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28de961cf5fa428fb88ba9765771d11
+      internalID: -766707341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_105
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1215
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a89385a2e684f879359a28de0e5645
+      internalID: -359360839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_106
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1215
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677bf29c630dc42d8b12cc67847008dc
+      internalID: -394449384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3b20faee3c24a0b86830bce4db28d6
+      internalID: 6904328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_108
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1215
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44383bdb5ad14aab828f2dfcc84a75b
+      internalID: -1851468785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_109
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1150
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ab53af86b9245a7b1fc4283d5bb468
+      internalID: 2050072438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_110
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1150
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c33b4f66d14345bbac89d6d748ddb21
+      internalID: -28409565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_111
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1150
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c64ba4a4ad4f9a9835ee6ed9cd47d
+      internalID: -564000850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_112
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1151
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f625fabe88fa9421db6b3e2124bc1a1b
+      internalID: -2043686616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_113
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1151
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a38621ab8c4240bb9ae6ce1cd09d91e
+      internalID: 1955113464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_114
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1151
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da32e22e7484b51892ea3c5424e591
+      internalID: 1298490398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_115
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1086
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a874e8073c0346498d67c62f664ac55
+      internalID: 726059376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_116
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1086
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da60afb50ef024a98bcdae40a06d0cfe
+      internalID: 458411331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_117
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1086
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2383e903e217d4335a0265ee0e92f9da
+      internalID: -523942307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_118
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1086
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34cc066d6c1d4fbf8fb5b98b986ef5b
+      internalID: 1736428858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_119
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1086
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dbfd16a1b73404bbb0aa53cf48876e
+      internalID: 2136489606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_120
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1086
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ac4ae5565af46a3835c76e010048ae
+      internalID: 1412719737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_121
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1023
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2267b55c5776c4b8e86873d8f78aeb39
+      internalID: 1031337686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ce0ac4b28884c028260c44e565496b
+      internalID: 106680859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_123
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1023
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a2261e4fbe4d159879ca4215ee5f9
+      internalID: -1690533747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_124
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1023
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a016f89a261f1495a9b7d9a9a76b155e
+      internalID: 443203784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_125
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1023
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db16470cf4f2340f7bab94ad4aa15d5e
+      internalID: -779606031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_126
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1023
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f7fe63b95b346daa09addbca640f19
+      internalID: -100167858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1023
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccf84f8703964e2398c29fa8c2f77cc
+      internalID: -813229846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_128
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1023
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01776f385fa40dfa24ba5f344afb4f
+      internalID: -1114130767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_129
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1023
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8abba846abb64026a96a3ce16585289
+      internalID: -229877062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_130
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1023
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9561b50b2a94633b45c73dfdc585b5
+      internalID: -695667168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_131
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1023
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1252ed3fe5254430c92ac9dd59ace64c
+      internalID: -1937637798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_132
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1023
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdb2442d8f194015b5a8585c081a293
+      internalID: -28115123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_133
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1023
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6141e6c6139d84c26963b709792fd10a
+      internalID: -160191258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_134
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 959
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e1a0a5996fe40c6b9086ea9598134c
+      internalID: -1993198287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_135
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 959
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfb3a98c3c014e3a89f7f9204a44e3d
+      internalID: -1987636160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_136
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 959
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9499adf192540e78c82c8be8f6d50d
+      internalID: 861783156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_137
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 959
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bd469804b5a4fdabc7a96342ffe4a6
+      internalID: -1475374222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_138
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 959
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239d8b1c5a40a4766a32b04ad7d9f9d6
+      internalID: -43077252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_139
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a27a60ef0c042248d179323f1ed084
+      internalID: -1872122495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_140
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 959
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf793f1098c2c4979907d8e03a938d91
+      internalID: 1558337051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_141
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 959
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5356fb4e95235424f80a4d239b0d05e7
+      internalID: 1003485730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_142
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 959
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bc9b92a3c934528beec3330a81fab6
+      internalID: 1754377031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_143
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 959
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af51555b86d044f5868f727dafca8ba
+      internalID: -1788898507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_144
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 959
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522bc9f63e98a435fbf3f883d2547afd
+      internalID: 1358993484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_145
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 959
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303ca69ad039744388a97391de5710b3
+      internalID: -140085297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_146
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 959
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488b660dd72da4f4689f10b5aa849703
+      internalID: -1960418371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_147
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1346c97e77a254875b97c66b86f19c0d
+      internalID: -1810781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcc4369e44224daab9e763267981b68
+      internalID: -437009309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 895
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d4a69e1cff4e17a11b340d6e0107a
+      internalID: -1235005673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_150
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 895
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db608624337944ab4929452dadc3b055
+      internalID: -1475016220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_151
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 895
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9581d5c23ddc4487797b685a589e57cb
+      internalID: 2132885424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_152
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 895
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9da1e3ee00ea4a49b87d2f6e9546907
+      internalID: -181021703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_153
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a37d4986ff94653b4b9a0c2f2868e5
+      internalID: 987113202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_154
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 895
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c7bcfa644564103901837bdc90abb9
+      internalID: 446508190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_155
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 895
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f2cdccd72104aadbb03800bb7b0da3
+      internalID: 624414023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_156
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 895
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1246aa7a1a6b5466baa73a0d4e672097
+      internalID: 440033583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_157
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 895
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925e8ba2e5a5b47d5bd24fb7ff4dfcc9
+      internalID: -1002791219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_158
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 895
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c794065339ef84791a2bc3ad70baff8d
+      internalID: -365008435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_159
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 895
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220285eab693549d9b8a6c343a1563ed
+      internalID: -1559638281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_160
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 831
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3cdb9608f2a40058e9ac8397850ba7
+      internalID: -525101682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_161
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 831
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6920785bc7884734b6f56d301df08c3
+      internalID: 1807417328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 831
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b7543d4c4ac453dac31580a832de45
+      internalID: 330377646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_163
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 831
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10de36771b2f49ecad924a74cf49dfc
+      internalID: 185590454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_164
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 831
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520910ca0aee1420c8d41e6a4c956585
+      internalID: -274463863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_165
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 831
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e192e3b356314e17ba1abc3f10717d3
+      internalID: -71796792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_166
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c49f3665ff3249e19f29c34f77e587b
+      internalID: -977470622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_167
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 831
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62055693ac39b4f6498a076780c62dc6
+      internalID: 297208648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_168
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 831
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59041a91ef40844b486d523332b0ada1
+      internalID: -743746472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_169
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 831
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc9204be33146c9ad38fd8be48b480
+      internalID: 2144490582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_170
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 831
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9901c165fd5e5444dae672ea3a7ecd2b
+      internalID: 1904200528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_171
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 831
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca7f6cd421704a61b5d8717eb51a193
+      internalID: -385547740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_172
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 831
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c201fad5ab4cf3a81775032fdedc6
+      internalID: -603489524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_173
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 767
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978bda8f6834946c28457c5938c3c907
+      internalID: 1328686850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_174
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 767
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb574be761a141868eadcbf9adb1650
+      internalID: -640265419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_175
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 767
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee80aa3466564ade947252bdcfc95c5
+      internalID: -1777552822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_176
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4ba6e54bed348b79423810dd0ed994
+      internalID: -1477290895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_177
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 768
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d74249a7eaf421c914e212ff7072ce
+      internalID: -1498707473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_178
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c0f5dc1ce33471dbc3186d349c1312
+      internalID: 1496391509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_179
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 639
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410335b8976244988929697e857234f6
+      internalID: 1342570389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_180
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 639
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1413c051f6c4c7a9ea6ea7a40ee601
+      internalID: 1224825387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_181
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 639
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c7dd650a5a54490a45b65948846fce
+      internalID: -434144712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_182
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 639
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2a084d2509f4c12b574ef91b8812c9
+      internalID: -594995309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_183
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 639
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2593d0c04ae1245ad8e8f8386cebf49b
+      internalID: 995794745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_184
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 639
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84dcef5fbd1247eea2458346a39b4e2
+      internalID: 78215648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_185
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 447
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d527b843aaf24285bddfaf551777922
+      internalID: 956118886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_186
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 447
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc62f66e2c7f14605a7aacd4ca43c2a0
+      internalID: -879377045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_187
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 447
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30b7964ea5294c849031c4e785f9a0e
+      internalID: -1396120885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_188
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 447
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89734e67d42694586a7f5264508a9898
+      internalID: 1746568942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_189
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 447
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314f429b802d04ff887a261c689d05a4
+      internalID: 360067897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_190
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 447
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877b922d20cc3492bb47cdbc3660a5cf
+      internalID: -861800394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_191
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 255
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aea1f83b18e41f785a36e88bdf6e17
+      internalID: -1706967092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_192
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 255
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b811fc989c0c44eaf9dd29f543cb48ce
+      internalID: 731840361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_193
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 255
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd677397dff3d4834ad6aa8059bb3cc1
+      internalID: -978228653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_194
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 255
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e25863840f64453490503e86b803289
+      internalID: -1399633413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_195
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 251
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fba5336a01d04f708f46fac1e4384a0
+      internalID: 943593515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_196
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 255
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3028c9b0a28c4b6babb15b23eded999
+      internalID: 1145722619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_197
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 62
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d580594dda224e79a2fe64bd06793d0
+      internalID: 200532923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_198
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 62
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7b6d037438a411ab1378d608a60ffa
+      internalID: -448522322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_199
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 62
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d6f6f51160f4116a716a523eb0b428
+      internalID: -1286638527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_200
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 62
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5284fa017234e0da9e5bf0caf5ceaf
+      internalID: -436732396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_201
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 62
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0c5573103b34434926f24ad045e5f2
+      internalID: -497497684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dardust_202
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 62
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35cb02b3390940b0a3ba0499c2290a4
+      internalID: -476467648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dardust_0: 149026807
+      Dardust_1: 610795182
+      Dardust_10: 588888866
+      Dardust_100: 960199158
+      Dardust_101: -642248167
+      Dardust_102: 527019281
+      Dardust_103: 957638357
+      Dardust_104: -766707341
+      Dardust_105: -359360839
+      Dardust_106: -394449384
+      Dardust_107: 6904328
+      Dardust_108: -1851468785
+      Dardust_109: 2050072438
+      Dardust_11: 915238583
+      Dardust_110: -28409565
+      Dardust_111: -564000850
+      Dardust_112: -2043686616
+      Dardust_113: 1955113464
+      Dardust_114: 1298490398
+      Dardust_115: 726059376
+      Dardust_116: 458411331
+      Dardust_117: -523942307
+      Dardust_118: 1736428858
+      Dardust_119: 2136489606
+      Dardust_12: -1106535022
+      Dardust_120: 1412719737
+      Dardust_121: 1031337686
+      Dardust_122: 106680859
+      Dardust_123: -1690533747
+      Dardust_124: 443203784
+      Dardust_125: -779606031
+      Dardust_126: -100167858
+      Dardust_127: -813229846
+      Dardust_128: -1114130767
+      Dardust_129: -229877062
+      Dardust_13: -89479723
+      Dardust_130: -695667168
+      Dardust_131: -1937637798
+      Dardust_132: -28115123
+      Dardust_133: -160191258
+      Dardust_134: -1993198287
+      Dardust_135: -1987636160
+      Dardust_136: 861783156
+      Dardust_137: -1475374222
+      Dardust_138: -43077252
+      Dardust_139: -1872122495
+      Dardust_14: -228487887
+      Dardust_140: 1558337051
+      Dardust_141: 1003485730
+      Dardust_142: 1754377031
+      Dardust_143: -1788898507
+      Dardust_144: 1358993484
+      Dardust_145: -140085297
+      Dardust_146: -1960418371
+      Dardust_147: -1810781
+      Dardust_148: -437009309
+      Dardust_149: -1235005673
+      Dardust_15: 1820948061
+      Dardust_150: -1475016220
+      Dardust_151: 2132885424
+      Dardust_152: -181021703
+      Dardust_153: 987113202
+      Dardust_154: 446508190
+      Dardust_155: 624414023
+      Dardust_156: 440033583
+      Dardust_157: -1002791219
+      Dardust_158: -365008435
+      Dardust_159: -1559638281
+      Dardust_16: -1714539155
+      Dardust_160: -525101682
+      Dardust_161: 1807417328
+      Dardust_162: 330377646
+      Dardust_163: 185590454
+      Dardust_164: -274463863
+      Dardust_165: -71796792
+      Dardust_166: -977470622
+      Dardust_167: 297208648
+      Dardust_168: -743746472
+      Dardust_169: 2144490582
+      Dardust_17: -607081193
+      Dardust_170: 1904200528
+      Dardust_171: -385547740
+      Dardust_172: -603489524
+      Dardust_173: 1328686850
+      Dardust_174: -640265419
+      Dardust_175: -1777552822
+      Dardust_176: -1477290895
+      Dardust_177: -1498707473
+      Dardust_178: 1496391509
+      Dardust_179: 1342570389
+      Dardust_18: -660281099
+      Dardust_180: 1224825387
+      Dardust_181: -434144712
+      Dardust_182: -594995309
+      Dardust_183: 995794745
+      Dardust_184: 78215648
+      Dardust_185: 956118886
+      Dardust_186: -879377045
+      Dardust_187: -1396120885
+      Dardust_188: 1746568942
+      Dardust_189: 360067897
+      Dardust_19: 154541240
+      Dardust_190: -861800394
+      Dardust_191: -1706967092
+      Dardust_192: 731840361
+      Dardust_193: -978228653
+      Dardust_194: -1399633413
+      Dardust_195: 943593515
+      Dardust_196: 1145722619
+      Dardust_197: 200532923
+      Dardust_198: -448522322
+      Dardust_199: -1286638527
+      Dardust_2: 733192555
+      Dardust_20: -1695119805
+      Dardust_200: -436732396
+      Dardust_201: -497497684
+      Dardust_202: -476467648
+      Dardust_21: -308745724
+      Dardust_22: -869974980
+      Dardust_23: -1318370712
+      Dardust_24: -112747729
+      Dardust_25: 15014425
+      Dardust_26: -1151108144
+      Dardust_27: 1857342489
+      Dardust_28: 2091194339
+      Dardust_29: -2135212120
+      Dardust_3: -506042171
+      Dardust_30: 541722387
+      Dardust_31: -146282164
+      Dardust_32: -1537788018
+      Dardust_33: -1642695501
+      Dardust_34: -1775007653
+      Dardust_35: -464620942
+      Dardust_36: -168967232
+      Dardust_37: 1778818194
+      Dardust_38: -889415349
+      Dardust_39: 1023422386
+      Dardust_4: -1622096898
+      Dardust_40: 1578968177
+      Dardust_41: -2098990709
+      Dardust_42: 669631951
+      Dardust_43: 1746733756
+      Dardust_44: 1695616324
+      Dardust_45: 849020665
+      Dardust_46: 49143695
+      Dardust_47: -674245785
+      Dardust_48: -1147219461
+      Dardust_49: -675949970
+      Dardust_5: 1040554265
+      Dardust_50: 1866806802
+      Dardust_51: 731161577
+      Dardust_52: 472655216
+      Dardust_53: -259167536
+      Dardust_54: -426387553
+      Dardust_55: 33998721
+      Dardust_56: 1764148492
+      Dardust_57: -2021794120
+      Dardust_58: 1561532
+      Dardust_59: -779158306
+      Dardust_6: -1855356870
+      Dardust_60: 2069410018
+      Dardust_61: -927772093
+      Dardust_62: -378579273
+      Dardust_63: 1547917848
+      Dardust_64: -488242382
+      Dardust_65: -1783845563
+      Dardust_66: -316169824
+      Dardust_67: 1204281984
+      Dardust_68: -285211039
+      Dardust_69: 741820579
+      Dardust_7: 873031661
+      Dardust_70: -870160169
+      Dardust_71: 415343970
+      Dardust_72: -1930162690
+      Dardust_73: -1487069166
+      Dardust_74: 63076944
+      Dardust_75: 207376819
+      Dardust_76: -1953537787
+      Dardust_77: 459551451
+      Dardust_78: 997572663
+      Dardust_79: 523988788
+      Dardust_8: 1123471276
+      Dardust_80: 1851417746
+      Dardust_81: 1488320110
+      Dardust_82: -1399246053
+      Dardust_83: -100941389
+      Dardust_84: -585603312
+      Dardust_85: -1243776029
+      Dardust_86: -1748848464
+      Dardust_87: 394476765
+      Dardust_88: 1977764637
+      Dardust_89: -661055404
+      Dardust_9: -1471982375
+      Dardust_90: -1887151663
+      Dardust_91: 314465778
+      Dardust_92: -1462654718
+      Dardust_93: -830492571
+      Dardust_94: 491349179
+      Dardust_95: -756566730
+      Dardust_96: 187804075
+      Dardust_97: -1333084186
+      Dardust_98: -52641428
+      Dardust_99: -940700104
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
