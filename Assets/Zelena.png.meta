@@ -1,0 +1,4799 @@
+fileFormatVersion: 2
+guid: a2977f95904ac447e9240e430f30ec58
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zelena_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2047
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68614184b83742e6ae4f5171bcbc131
+      internalID: -1484991916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2047
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5da7be1a3ba14423a00ea21d31aa184
+      internalID: 521446308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2047
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a345c369f9e4f2ba326af1fe4e2e63
+      internalID: -783541362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2047
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8e6553f379443589027459764d4346
+      internalID: -879899155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2047
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087c96f1455d5479e8ed3633bb18e557
+      internalID: -51184263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2047
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94577ea4e042042b39c56bc12b820c10
+      internalID: 2124723790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2047
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df177d09429a4c368057025b847dcd8
+      internalID: 813799249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2069
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b109e789b95479085afddcda678cca
+      internalID: -166497762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2055
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a1bdfdca2f42ad9c55fbd2d2f9c9d
+      internalID: 91457563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1983
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62150ded8426f44c1bcca513f010d165
+      internalID: 2068102876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1983
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e3388dc7fe0494995d0b20cef2b6c4
+      internalID: -292640805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1983
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd068c2c54374f21883f57d8f99e11e
+      internalID: 724624855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1983
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3134dfad077af4b33b2cde8281bf9a4b
+      internalID: 660136784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1983
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c9c649115d40319aca9d87c67829e
+      internalID: 2057217470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_14
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1983
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c75a380248f47b8b2905f162521f96
+      internalID: 202880884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1983
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf23a935d7de4f42b9c353f6bdf5c03
+      internalID: 911887485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1919
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb73284d4774d9da5a25e0d8fdc787
+      internalID: -1700574550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1919
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd20ca8bf92e94734b77f766839c8208
+      internalID: 2145897328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1919
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38525f508e56b4ca08c49703f44ac7ca
+      internalID: 829757800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1919
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f123e80fa94a4a8d8875c10abd80d46
+      internalID: -121734166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1919
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5b30aafdc7f4816bf3a83bb1dc1bed
+      internalID: 879400934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1919
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21559e00940df43389fbcb3b92580624
+      internalID: 338549626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1919
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3276f3c9c873b470bb9760bd22a538ab
+      internalID: 1547496134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1855
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c1019f3ee3a4cc79d522e1ba7c82d5
+      internalID: -277484314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1855
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199f5813d76ba45edaab4d53473a9a1b
+      internalID: -1230853923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1855
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beec3c8205fc4b289f5eac30eed9d01
+      internalID: -1720466590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1855
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcf608c71ff24a22bf3f73992bcf445
+      internalID: -1859832785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1855
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7802a40403e4e3384407265603dfb0
+      internalID: -2003515989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1855
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae106cfdd107241119b20a1927a04ce7
+      internalID: -265335544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_29
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1855
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fb08acbaf61405e86255a956178d70
+      internalID: 2130630054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1791
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9620994cbcaf8490e8f96a150e7e8005
+      internalID: 779138184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1791
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695c4b2edd61f4b15a532c86cd6fe470
+      internalID: -753238138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_32
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1791
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcb5a8fad4cd442e8e6378081ccd34d
+      internalID: -46005886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1791
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420c814b0d41a41b29e08226ab66c9bf
+      internalID: -769863980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1791
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab135b05be6684cadba391948f63d8c1
+      internalID: -1577899936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1791
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d34f2d9be6342f2affffa00bd7ba6b
+      internalID: 1295556592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1791
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab09dc5c31f9b44f2b193412bb157853
+      internalID: -847466392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1791
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f1ed7ee3c324d8789b876f934815e3
+      internalID: -219537936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a204960e06d4d029b7a3ede3ca9911
+      internalID: 884628374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_39
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1727
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708761d127a5e4ac1b03fc26cb65e901
+      internalID: -327679256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1727
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf68d6567cd4f8bbc7ea2cca5d24ec
+      internalID: 935094597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_41
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67b02867eec74737b40400725169568
+      internalID: -1225778864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_42
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1727
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8ed416bc600479a87b747881c9403f
+      internalID: -1081262846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_43
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1727
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71994b4fa8ad742139fc656c1b645859
+      internalID: -557238761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_44
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1727
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6733e33d9910f4a23b46efa7a0040835
+      internalID: -1442390174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_45
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1cdcb9639844e5db4c9fe0d7e3f138
+      internalID: 90993685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_46
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1663
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd85a493f3da480bbbaf30b39af9eed
+      internalID: 486888881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_47
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1663
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf6f6952fe064919a2c24119708fa07
+      internalID: 651160618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_48
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1663
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff18f6baf0e4732a24ee978333ca29
+      internalID: 1107211610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_49
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1664
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26845b62ebc84166a80ed2c46e9ea2b
+      internalID: 1737295102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_50
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1663
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80daf59e02d9042018fbc2ece4e07240
+      internalID: 922241499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_51
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1663
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab90c868adc42bd85742a0452f9af1
+      internalID: 1454775262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_52
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1663
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f67c8fb6c1234984abe6bc4337592bb
+      internalID: 2043950992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_53
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1664
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7875f0565df34dd99192434b1e42641
+      internalID: -476042574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1599
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a196478b49e46708c81527265296fa
+      internalID: 612930709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_55
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1599
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aa919ee316e4ed2bb8166e48898e52
+      internalID: 505863923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_56
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1599
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fae82915cf0c483da69cc88f153b713
+      internalID: 1731255071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1599
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de57af67fcd6546baab0eab912de5b49
+      internalID: -670740235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_58
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1599
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdca0ea747c54ed99d28f149ffde618
+      internalID: -1728884427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_59
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1599
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c752ed2308a41c0bc6b94107dbbad4
+      internalID: 1342692467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_60
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1599
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7e70234a5d346949374ef433ec7270
+      internalID: 859090742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_61
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1599
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9706586399794f459c153d208407ded
+      internalID: 1693660408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_62
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e41466e734cd487e937d9afbcb8d0bb
+      internalID: -71458345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_63
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42af56e05711840b781344da4ccc5dfa
+      internalID: 1393077734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_64
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feff97832210d4c368e0668934509609
+      internalID: -1128201012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_65
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1535
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34f5a170705a481cae8123c64c7de37
+      internalID: -1457410548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_66
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82c2b0b19ff48ce9f261c1ef5acc32
+      internalID: 1475479332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_67
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d3ec18fff134feaad36c802a3cb2de
+      internalID: 802298294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_68
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c76e8d5d2b64517aadaabe21396e16
+      internalID: -431868981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_69
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1535
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d563ca3b5e47fab73ee13f10457a4
+      internalID: 2063297457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_70
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1535
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78ba98a3556942429e896b704c69567
+      internalID: 1169219379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1471
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ce90dbabd08482a88cfecd5d29cac8
+      internalID: 1646916025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1471
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0138400c1674a8b8ee7464ea8580cd
+      internalID: -282032609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1471
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d8120b1f331497daf3b0f49c6b9c38
+      internalID: 1758429216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_74
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1471
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff4ada9a69b4bacbc5088ad98e63d9
+      internalID: 1548879448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_75
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1471
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a0d4dac33094068957344c0eb0cb19
+      internalID: -180059106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_76
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1471
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570a75a8281d4447e8a0048b71a39fd1
+      internalID: -425541102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_77
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1471
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba04d074f18d4511b04edd2bbda829f
+      internalID: 1551082905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_78
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1471
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dcdb3bc122b49a596b99bab29d393d
+      internalID: 124303956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_79
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1471
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac36e591cb7bf4ccf93a7c379a76f051
+      internalID: 1050796300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_80
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1407
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab39a46828c483db2bee0b09cbb0dd
+      internalID: -384416579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_81
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1407
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b264cac64024f54973e581cb50e64f
+      internalID: -1733754135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_82
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1407
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600bf98886f5a4ef882de0591b3457e9
+      internalID: 1027642271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_83
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1407
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754edeafd6dbd462dbd608700d207439
+      internalID: -527978617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_84
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1407
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a66fcc2bd6148ef854e88b3cb70dbc
+      internalID: 605238887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_85
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1407
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2536627b2601d46d88f20c5b7e4c2f74
+      internalID: 963686215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_86
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1407
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92773c98c98d496ea11f708a1c9d33b
+      internalID: 1605220054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_87
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1407
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a83f734889af4065a26769153140634
+      internalID: -1340393516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_88
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1407
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0e499c2a2734147b780a0ead354576
+      internalID: 2076571164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_89
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1343
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1711a296ad7468ba61f0913398e46a
+      internalID: -124060229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_90
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1343
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf00463b88a4145acf36ba1bbd21fb
+      internalID: 458916734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_91
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1343
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447f32b90ae004bceafbf493ae160118
+      internalID: 512312456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_92
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1343
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c31908a78bd42d0a93823df6cb9464
+      internalID: -1396387821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_93
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1343
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c2833169e34c309115f998f5fcd9b
+      internalID: -327573213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_94
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1343
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e7d4d318a964428989ac9aa924e94a
+      internalID: 873102262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_95
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1343
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01284e4861eb048609e07fc0aacf4d3c
+      internalID: -624968020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_96
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1343
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f6c88203da413ab770534c9ed3bf4
+      internalID: -843229471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_97
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1343
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74011bc5136e846f99cd58bcaad997db
+      internalID: -514990251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_98
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1279
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c695987af72c4c12878ffd12fd9f7e8
+      internalID: -1124642744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_99
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1279
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdfa81cdb37946eb81b55500f82519c
+      internalID: 1267747555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_100
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1279
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258e1c3dd3ae149128123869df6d5cff
+      internalID: 126582376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_101
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1279
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8337a7c5acb284d2daeeb66f2190ca22
+      internalID: -221822967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1279
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b8756041034654bafbec6d94f44da
+      internalID: -468423903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_103
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1279
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d8ba127ac60432f90a3757dd1d1737
+      internalID: 761625993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_104
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1215
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeffce21818894e749a378eba4e48ecb
+      internalID: 9674404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_105
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1215
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fc13ed4eafe4733a7c63b3146a4eb7
+      internalID: -1090923112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_106
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1215
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d09a1e77fbf943ac97da2b04ddf7652
+      internalID: -1065539484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1215
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3865dc7284f42fd93ed4e628033a37
+      internalID: 1727479240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_108
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a00e65a109e483692017e068ef6b20
+      internalID: 1608811235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_109
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1215
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0ae04c0568b4926b24c9049598e512
+      internalID: 1448627991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_110
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1151
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08fbef782e5f49b0a3ec7eceead902c
+      internalID: -1792123302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_111
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1151
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972aeaad9766441181f2cb226406cc1
+      internalID: 1485611522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_112
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1150
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f428ad5a9c4e5ab5960efd1f1b2f3
+      internalID: -1197821495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_113
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1151
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32ceaccf47d2412eb14816b917f5e90
+      internalID: 1543731055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_114
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1151
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520565509dc134d72b5e2931f7075f4f
+      internalID: 1959004573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_115
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1151
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5b6367ca6834221bc04638d6f6dfa5
+      internalID: -1326512869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_116
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1086
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3de53cf7b6e49c58892be05e3879d1
+      internalID: -621870439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_117
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1086
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da9698545b2c44ad967b24ec1fbf029
+      internalID: -262474084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_118
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1086
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491f018211807447da15a02d480d9d07
+      internalID: 1899678472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_119
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1086
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebecc2c7f22d547b0a690c6cfa105272
+      internalID: -2010056706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_120
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1086
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d44a9244c8742da827f8763cbbce84
+      internalID: 389126747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_121
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1086
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bdc04a868b14c6d9ef1c9af6ce6da5
+      internalID: -1229502986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_122
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7884e5d91c3b4494fa625d5415c96b68
+      internalID: -7781496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_123
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1023
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f403c97d904097b13eab678ebe65a
+      internalID: 852885903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_124
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b696550e685af4218956220b96adc561
+      internalID: -251355904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_125
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa713694df0e4176b4f0387e27ff5cf
+      internalID: 1390990397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_126
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcc67f4da6234c9d9b96d162ebfbef8
+      internalID: -2052449368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_127
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772200d9933d54b73a5d6246eb3e1530
+      internalID: -1771181653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_128
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326b67d6ba22b49eda305f6b57e4cd6d
+      internalID: 1015213032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_129
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06059029cff4abf9a131312548d01a
+      internalID: 857431838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_130
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95483b66cdf4c471abd4ec683f73af82
+      internalID: 668079680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_131
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19521ddef4e3c408fa855173039a8435
+      internalID: 873493425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_132
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1023
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76271533905f8403f9137d19c30d5dae
+      internalID: -264293331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_133
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1023
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec01383892674d93a775e829f018e77
+      internalID: 765386728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_134
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1023
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05772f0e2540b4460883465b2d87b7fb
+      internalID: -1854669888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_135
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 959
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87879cdf2d4884c7f8b8f53eafe1e66e
+      internalID: 345814803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_136
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 959
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e583b615d06487485b5ba60817f539
+      internalID: 815884151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_137
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 959
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5d23859094549c6935121a6dda2b82
+      internalID: -1928971585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_138
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 959
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2eb9bfca465402d828a92402f05ed9
+      internalID: 1102518102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_139
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 959
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0c9ca5daf9f47f4839b267f3ff1395
+      internalID: -365156516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_140
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8b9f35d25e54736853e46d99f2896b
+      internalID: 1931774926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_141
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 959
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77f325d1475f46d08df361c83d4e5de
+      internalID: 2005101792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_142
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 959
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ba3a2b9b2ab439a8032a309ffc38a1
+      internalID: 381050196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_143
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 959
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3410a80b885f4b0ea193349c09e32c2
+      internalID: 1674944509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_144
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 959
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d059dd79a754984b4a2df3f4362cf3
+      internalID: 650543016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_145
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 959
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc59f963188640e4a9db4408d75c422
+      internalID: 1420912418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_146
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 959
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a02edd9eed4ba48ed2c35c2b86af6
+      internalID: 354832824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_147
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 959
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1c9952e1cce4ad982f66fa61a82b43
+      internalID: 1445094751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_148
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 895
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107035a0619ed462ebb03f8d53904683
+      internalID: 1531607000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_149
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 895
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610547d3300a3480fbf46f059f6f0a69
+      internalID: 897779575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_150
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 895
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f24092d9d544e98ac6cae0237851b8
+      internalID: -620800843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_151
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 895
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b6d2ae930104f91a9f6d4b4c245806
+      internalID: 1663345469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_152
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 895
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6fb1a66a70243e7bb9fc3bbef59bc0
+      internalID: 1764922959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_153
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 895
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c496b407bfe57400282538ebedead2eb
+      internalID: 351912699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_154
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 895
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff9d4a463da4e56a1a8f3920d28ce0
+      internalID: 518353260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_155
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 895
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48f0490f94e74e42a17f564e2f33293
+      internalID: -1381668049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_156
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 895
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db086312f7554a4daa019189b6743e4
+      internalID: -72101542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_157
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 895
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294edeb11e06a43b484b5049e8f5e848
+      internalID: 1378386305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_158
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 895
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4afc8b5fb384850b091f459ad559d6
+      internalID: 1484770729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_159
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 895
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d3958d069ea4f748aa7da1016aecee
+      internalID: 1409946330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_160
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 895
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd224f04d94404b6b81f9c2da38fbc4f
+      internalID: 1589931369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_161
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 831
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aaa3152bec049f59b1396afc537332
+      internalID: 78100414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_162
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 831
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c3c62c0504e4613ba30397eb405290
+      internalID: 252502422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_163
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 831
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2007df5f50df04ce7b77b3700a283b16
+      internalID: -1741088268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_164
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 831
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b43045f69c478498f3b911e2ca571
+      internalID: -1201166700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_165
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 831
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ed7967d33041f4b7932b243cfc689
+      internalID: 343330935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_166
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 831
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf3489ac492a458a8bb4e620ed30315
+      internalID: -1919554686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_167
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 831
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61cd15c46bab478592e832b142ac932
+      internalID: 384691219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_168
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 831
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c23d0ccd40f47288c6b3b414e3a88e
+      internalID: -694039421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_169
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 831
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa793f95af45841afb352057194fd113
+      internalID: 230352675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_170
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 831
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bae41807e77457f8261a7b5ed67c0a
+      internalID: -964997336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_171
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 831
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885581a4e36be40f1bf5df5773e2fdcb
+      internalID: 1756822804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_172
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 831
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcc187cfac3c41b294bd4a7b8b0a687
+      internalID: 152427974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_173
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 831
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5442b997c8420cbd584ef83c05cf4
+      internalID: 116420461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_174
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 767
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f84464948bb437bb26a35c110c6779
+      internalID: -561107859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_175
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 767
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11628ab6a044e43429f2962621bfcb06
+      internalID: -1395990601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_176
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 767
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a08e329728149268f866ec257ed33e
+      internalID: -558835151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_177
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff52bd3c1c6d4a0d8c71a95773b1465
+      internalID: -2146977540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_178
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 767
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f4d4bd651441edb3145d0afc8d7e5
+      internalID: -862099765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_179
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 767
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5464709c77f543f19111f79d3d6dc9f
+      internalID: -1194751753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_180
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 639
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d151290950b4b65b98c406874e9c4f
+      internalID: 2028239814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_181
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 639
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7883ebb32b60a4be2af54568498bac6b
+      internalID: -731722081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_182
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 639
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024e9706eaf3e47c78cbac0fe0b40faa
+      internalID: -1638120973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_183
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 639
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eff1ef2006e74648bc61e2cb9ff2faf
+      internalID: 1097242702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_184
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 639
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e045a53e4ad74dddb2dd4ce1d3cea13
+      internalID: 1501945815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_185
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 639
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19219f930571740fb9c6ee6d064f9f52
+      internalID: -652004118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_186
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 639
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd6cb49693bd47f8889fea29f6f2943
+      internalID: 1479833393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_187
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 639
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460bd9c00e280407cb10bd34ad58220c
+      internalID: 680485154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_188
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 447
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb75436a4e9d4aeeb80d611f9856672
+      internalID: 831452462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_189
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 447
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d13540262a2497a8fd0873d01b3143
+      internalID: 720083185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_190
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 447
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bfdb87a4af3405b883f4437b30ba36
+      internalID: 375054575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_191
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 447
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e4085a5e374a7a83edcaf796c5f80
+      internalID: 1113185100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_192
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 447
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a4d115d1d24068aaf6665883eca37
+      internalID: 1992365705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_193
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 447
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318970fe330094bf3a5f903213c723f4
+      internalID: -1298289574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_194
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 447
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99e8924e912a4f78ada4a44f13d677a
+      internalID: -1366641646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_195
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 447
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4111585fff4494c4aa271cf02c1ce305
+      internalID: -951186477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_196
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 255
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09df1d3a398a643d1bb057fe1374ea71
+      internalID: 88734703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_197
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 255
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc854e186c63438cbc15dfc34be4996
+      internalID: -426316759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_198
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 255
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8ac90b06e440e5b41adde1f4dd1b4
+      internalID: 1665553844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_199
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 256
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf5d82c5a39b45f79835c7457924630
+      internalID: -1697535496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_200
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 255
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a266442d098f41cd94324f93a99c8d4
+      internalID: -1746942595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_201
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 254
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3388db66d74974df8ab6aae17db0d30f
+      internalID: 1173500565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_202
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 255
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea0512cb4284969b130658506821d4
+      internalID: -1189905861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_203
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 256
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8ea3bc312ea4195a47fd7d8f3f7185
+      internalID: -730386071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_204
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 62
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7713551f77d146848798ef412acd892
+      internalID: -673024554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_205
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 62
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b978f89a4e948f8bee77b770a40ac5
+      internalID: -1060042434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_206
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 62
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84c4fe28b87d4648af390ece06fc64b
+      internalID: 1634003365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_207
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 62
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc816f41c6395434ca24e1aacade529c
+      internalID: 733683072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_208
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 62
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429cfb72b0d0a4de69ad04ff079394b7
+      internalID: -1529778575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_209
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 62
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48369d472029042438393d8ad1a3c2f7
+      internalID: -1474579708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_210
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 62
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595f1cefd8a4e48b0a1123c4800ae9b7
+      internalID: -1869506604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zelena_211
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 62
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121814b1438924b22a225a42757d9d17
+      internalID: 1890155756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Zelena_0: -1484991916
+      Zelena_1: 521446308
+      Zelena_10: -292640805
+      Zelena_100: 126582376
+      Zelena_101: -221822967
+      Zelena_102: -468423903
+      Zelena_103: 761625993
+      Zelena_104: 9674404
+      Zelena_105: -1090923112
+      Zelena_106: -1065539484
+      Zelena_107: 1727479240
+      Zelena_108: 1608811235
+      Zelena_109: 1448627991
+      Zelena_11: 724624855
+      Zelena_110: -1792123302
+      Zelena_111: 1485611522
+      Zelena_112: -1197821495
+      Zelena_113: 1543731055
+      Zelena_114: 1959004573
+      Zelena_115: -1326512869
+      Zelena_116: -621870439
+      Zelena_117: -262474084
+      Zelena_118: 1899678472
+      Zelena_119: -2010056706
+      Zelena_12: 660136784
+      Zelena_120: 389126747
+      Zelena_121: -1229502986
+      Zelena_122: -7781496
+      Zelena_123: 852885903
+      Zelena_124: -251355904
+      Zelena_125: 1390990397
+      Zelena_126: -2052449368
+      Zelena_127: -1771181653
+      Zelena_128: 1015213032
+      Zelena_129: 857431838
+      Zelena_13: 2057217470
+      Zelena_130: 668079680
+      Zelena_131: 873493425
+      Zelena_132: -264293331
+      Zelena_133: 765386728
+      Zelena_134: -1854669888
+      Zelena_135: 345814803
+      Zelena_136: 815884151
+      Zelena_137: -1928971585
+      Zelena_138: 1102518102
+      Zelena_139: -365156516
+      Zelena_14: 202880884
+      Zelena_140: 1931774926
+      Zelena_141: 2005101792
+      Zelena_142: 381050196
+      Zelena_143: 1674944509
+      Zelena_144: 650543016
+      Zelena_145: 1420912418
+      Zelena_146: 354832824
+      Zelena_147: 1445094751
+      Zelena_148: 1531607000
+      Zelena_149: 897779575
+      Zelena_15: 911887485
+      Zelena_150: -620800843
+      Zelena_151: 1663345469
+      Zelena_152: 1764922959
+      Zelena_153: 351912699
+      Zelena_154: 518353260
+      Zelena_155: -1381668049
+      Zelena_156: -72101542
+      Zelena_157: 1378386305
+      Zelena_158: 1484770729
+      Zelena_159: 1409946330
+      Zelena_16: -1700574550
+      Zelena_160: 1589931369
+      Zelena_161: 78100414
+      Zelena_162: 252502422
+      Zelena_163: -1741088268
+      Zelena_164: -1201166700
+      Zelena_165: 343330935
+      Zelena_166: -1919554686
+      Zelena_167: 384691219
+      Zelena_168: -694039421
+      Zelena_169: 230352675
+      Zelena_17: 2145897328
+      Zelena_170: -964997336
+      Zelena_171: 1756822804
+      Zelena_172: 152427974
+      Zelena_173: 116420461
+      Zelena_174: -561107859
+      Zelena_175: -1395990601
+      Zelena_176: -558835151
+      Zelena_177: -2146977540
+      Zelena_178: -862099765
+      Zelena_179: -1194751753
+      Zelena_18: 829757800
+      Zelena_180: 2028239814
+      Zelena_181: -731722081
+      Zelena_182: -1638120973
+      Zelena_183: 1097242702
+      Zelena_184: 1501945815
+      Zelena_185: -652004118
+      Zelena_186: 1479833393
+      Zelena_187: 680485154
+      Zelena_188: 831452462
+      Zelena_189: 720083185
+      Zelena_19: -121734166
+      Zelena_190: 375054575
+      Zelena_191: 1113185100
+      Zelena_192: 1992365705
+      Zelena_193: -1298289574
+      Zelena_194: -1366641646
+      Zelena_195: -951186477
+      Zelena_196: 88734703
+      Zelena_197: -426316759
+      Zelena_198: 1665553844
+      Zelena_199: -1697535496
+      Zelena_2: -783541362
+      Zelena_20: 879400934
+      Zelena_200: -1746942595
+      Zelena_201: 1173500565
+      Zelena_202: -1189905861
+      Zelena_203: -730386071
+      Zelena_204: -673024554
+      Zelena_205: -1060042434
+      Zelena_206: 1634003365
+      Zelena_207: 733683072
+      Zelena_208: -1529778575
+      Zelena_209: -1474579708
+      Zelena_21: 338549626
+      Zelena_210: -1869506604
+      Zelena_211: 1890155756
+      Zelena_22: 1547496134
+      Zelena_23: -277484314
+      Zelena_24: -1230853923
+      Zelena_25: -1720466590
+      Zelena_26: -1859832785
+      Zelena_27: -2003515989
+      Zelena_28: -265335544
+      Zelena_29: 2130630054
+      Zelena_3: -879899155
+      Zelena_30: 779138184
+      Zelena_31: -753238138
+      Zelena_32: -46005886
+      Zelena_33: -769863980
+      Zelena_34: -1577899936
+      Zelena_35: 1295556592
+      Zelena_36: -847466392
+      Zelena_37: -219537936
+      Zelena_38: 884628374
+      Zelena_39: -327679256
+      Zelena_4: -51184263
+      Zelena_40: 935094597
+      Zelena_41: -1225778864
+      Zelena_42: -1081262846
+      Zelena_43: -557238761
+      Zelena_44: -1442390174
+      Zelena_45: 90993685
+      Zelena_46: 486888881
+      Zelena_47: 651160618
+      Zelena_48: 1107211610
+      Zelena_49: 1737295102
+      Zelena_5: 2124723790
+      Zelena_50: 922241499
+      Zelena_51: 1454775262
+      Zelena_52: 2043950992
+      Zelena_53: -476042574
+      Zelena_54: 612930709
+      Zelena_55: 505863923
+      Zelena_56: 1731255071
+      Zelena_57: -670740235
+      Zelena_58: -1728884427
+      Zelena_59: 1342692467
+      Zelena_6: 813799249
+      Zelena_60: 859090742
+      Zelena_61: 1693660408
+      Zelena_62: -71458345
+      Zelena_63: 1393077734
+      Zelena_64: -1128201012
+      Zelena_65: -1457410548
+      Zelena_66: 1475479332
+      Zelena_67: 802298294
+      Zelena_68: -431868981
+      Zelena_69: 2063297457
+      Zelena_7: -166497762
+      Zelena_70: 1169219379
+      Zelena_71: 1646916025
+      Zelena_72: -282032609
+      Zelena_73: 1758429216
+      Zelena_74: 1548879448
+      Zelena_75: -180059106
+      Zelena_76: -425541102
+      Zelena_77: 1551082905
+      Zelena_78: 124303956
+      Zelena_79: 1050796300
+      Zelena_8: 91457563
+      Zelena_80: -384416579
+      Zelena_81: -1733754135
+      Zelena_82: 1027642271
+      Zelena_83: -527978617
+      Zelena_84: 605238887
+      Zelena_85: 963686215
+      Zelena_86: 1605220054
+      Zelena_87: -1340393516
+      Zelena_88: 2076571164
+      Zelena_89: -124060229
+      Zelena_9: 2068102876
+      Zelena_90: 458916734
+      Zelena_91: 512312456
+      Zelena_92: -1396387821
+      Zelena_93: -327573213
+      Zelena_94: 873102262
+      Zelena_95: -624968020
+      Zelena_96: -843229471
+      Zelena_97: -514990251
+      Zelena_98: -1124642744
+      Zelena_99: 1267747555
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
