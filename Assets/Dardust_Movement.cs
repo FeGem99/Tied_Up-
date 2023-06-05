@@ -4,17 +4,32 @@ using UnityEngine;
 
 public class Dardust_Movement : MonoBehaviour
 {
+
+   private Rigidbody2D dardust;
+   /* int wholeNumber = 16;
+    float decimalNumber = 4.54f;
+    string text = "this->";
+    bool boolean = false;*/
     // Start is called before the first frame update
-    void Start()
+   private void Start()
     {
-        
+       dardust =  GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-       if (Input.GetKey("w")){
-        GetComponent<Rigidbody2D>().velocity = new Vector3(0, 10, 0);
+
+        float dirX = Input.GetAxisRaw("Horizontal");
+        dardust.velocity = new Vector2(dirX * 2f, dardust.velocity.y);
+       if (Input.GetButtonDown("Jump"))
+       {
+      dardust.velocity = new Vector3(dardust.velocity.x, 4f);
       } 
+        if (dirX > 0){
+
+        }
+
+
     }
 }
