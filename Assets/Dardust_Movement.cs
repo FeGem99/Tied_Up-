@@ -13,6 +13,8 @@ public class Dardust_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       if (Input.GetKey("w")){
+        GetComponent<Rigidbody2D>().velocity = new Vector3(0, 3, 0);
+      } 
     }
 }
