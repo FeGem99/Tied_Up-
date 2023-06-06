@@ -20,13 +20,13 @@ public class Zelena_Movement : MonoBehaviour
     private void Update()
     {
 
-        float dirX = Input.GetAxisRaw("Horizontal");
-        zelena.velocity = new Vector2(dirX * 2f, zelena.velocity.y);
-       if (Input.GetButtonDown("Jump"))
+        float dirXZ = Input.GetAxisRaw("Horizontal_Z");
+        zelena.velocity = new Vector2(dirXZ * 2f, zelena.velocity.y);
+       if (Input.GetButtonDown("Jump_Z"))
        {
       zelena.velocity = new Vector3(zelena.velocity.x, 4f);
       } 
-        if (dirX > 0){
+        if (dirXZ > 0){
 
         }
 
