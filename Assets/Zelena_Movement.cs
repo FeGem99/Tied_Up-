@@ -6,6 +6,7 @@ public class Zelena_Movement : MonoBehaviour
 {
 
    private Rigidbody2D zelena;
+   private bool isJumping = false;
    /* int wholeNumber = 16;
     float decimalNumber = 4.54f;
     string text = "this->";
@@ -14,23 +15,29 @@ public class Zelena_Movement : MonoBehaviour
    private void Start()
     {
        zelena =  GetComponent<Rigidbody2D>();
+       //int jumpD = 0;
     }
 
     // Update is called once per frame
     private void Update()
     {
-
+         
         float dirX = Input.GetAxisRaw("HorizontalZ");
         zelena.velocity = new Vector2(dirX * 2f, zelena.velocity.y);
-       if (Input.GetButtonDown("JumpZ"))
+       if (Input.GetButtonDown("JumpZ") && !isJumping)
        {
+        
       zelena.velocity = new Vector3(zelena.velocity.x, 4f);
+      isJumping=true;
       } 
-        if (dirX > 0){
+      
 
+       
+    }
+      private void OnCollisionEnter2D(Collision2D collision){
+        if(collision.gameObject.CompareTag("Terrain")){
+            isJumping = false;
         }
-
-
     }
 }
 
