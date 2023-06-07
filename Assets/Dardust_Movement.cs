@@ -22,10 +22,10 @@ public class Dardust_Movement : MonoBehaviour
     {
 
         float dirX = Input.GetAxisRaw("Horizontal");
-        dardust.velocity = new Vector2(dirX * 2f, dardust.velocity.y);
+        dardust.velocity = new Vector2(dirX * 3.5f, dardust.velocity.y);
        if (Input.GetButtonDown("Jump")&& !isJumping)
        {
-      dardust.velocity = new Vector3(dardust.velocity.x, 4f);
+      dardust.velocity = new Vector3(dardust.velocity.x, 5.5f);
       isJumping = true;
       } 
       

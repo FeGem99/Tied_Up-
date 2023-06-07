@@ -23,11 +23,11 @@ public class Zelena_Movement : MonoBehaviour
     {
          
         float dirX = Input.GetAxisRaw("HorizontalZ");
-        zelena.velocity = new Vector2(dirX * 2f, zelena.velocity.y);
+        zelena.velocity = new Vector2(dirX * 3.5f, zelena.velocity.y);
        if (Input.GetButtonDown("JumpZ") && !isJumping)
        {
         
-      zelena.velocity = new Vector3(zelena.velocity.x, 4f);
+      zelena.velocity = new Vector3(zelena.velocity.x, 5.5f);
       isJumping=true;
       } 
       
