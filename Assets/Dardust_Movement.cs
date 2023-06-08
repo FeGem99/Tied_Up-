@@ -41,14 +41,15 @@ private void UpdateAnimationUpdate(){ //metodo che controlla le animazioni di du
 
 if (dirX > 0f)
       {
-          anim.SetBool("Running_D", true);
+          anim.SetBool("destra_d", true);
       }
       else if (dirX < 0f)
       {
-          anim.SetBool("Running_D", true);
+          anim.SetBool("sinistra_d", true);
       }
       else {
-          anim.SetBool("Running_D", false); 
+          anim.SetBool("sinistra_d", false); 
+          anim.SetBool("destra_d", false);
       }
 }
     private void OnCollisionEnter2D(Collision2D collision){
