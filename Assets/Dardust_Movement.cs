@@ -7,7 +7,7 @@ public class Dardust_Movement : MonoBehaviour
 
    private Rigidbody2D dardust;
    private bool isJumping = false;
-
+    private SpriteRenderer sprite;
 private float dirX = 0f; //variabile che indica la direzione dove si muove durdust, settata a 0.
    private Animator anim; //variabile per animazione
    /* int wholeNumber = 16;
@@ -19,6 +19,7 @@ private float dirX = 0f; //variabile che indica la direzione dove si muove durdu
     {
        dardust =  GetComponent<Rigidbody2D>();
        anim = GetComponent<Animator>();
+       sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -41,15 +42,17 @@ private void UpdateAnimationUpdate(){ //metodo che controlla le animazioni di du
 
 if (dirX > 0f)
       {
-          anim.SetBool("destra_d", true);
+          anim.SetBool("run_D", true);
+          sprite.flipX = false;
       }
       else if (dirX < 0f)
       {
-          anim.SetBool("sinistra_d", true);
+          anim.SetBool("run_D", true);
+          sprite.flipX = true;
       }
       else {
-          anim.SetBool("sinistra_d", false); 
-          anim.SetBool("destra_d", false);
+          anim.SetBool("run_D", false); 
+         
       }
 }
     private void OnCollisionEnter2D(Collision2D collision){
