@@ -8,6 +8,7 @@ public class Zelena_Movement : MonoBehaviour
    private Rigidbody2D zelena;
    private bool isJumping = false;
    private float dirX = 0f; 
+   private SpriteRenderer sprite;
  private Animator anim; //variabile per animazione
    /* int wholeNumber = 16;
     float decimalNumber = 4.54f;
@@ -18,6 +19,7 @@ public class Zelena_Movement : MonoBehaviour
     {
        zelena =  GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
        //int jumpD = 0;
     }
 
@@ -41,15 +43,17 @@ public class Zelena_Movement : MonoBehaviour
 
 if (dirX > 0f)
       {
-          anim.SetBool("destra", true);
+          anim.SetBool("run_Z", true);
+          sprite.flipX = false;
       }
       else if (dirX < 0f)
       {
-          anim.SetBool("sinistra", true);
+          anim.SetBool("run_Z", true);
+          sprite.flipX = true;
       }
       else {
-          anim.SetBool("destra", false); 
-          anim.SetBool("sinistra", false);
+          anim.SetBool("run_Z", false); 
+
       }
 }
       private void OnCollisionEnter2D(Collision2D collision){
