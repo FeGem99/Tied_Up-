@@ -6,10 +6,13 @@ public class Zelena_Movement : MonoBehaviour
 {
 
    private Rigidbody2D zelena;
+   private BoxCollider2D coll; 
    private bool isJumping = false;
    private float dirX = 0f; 
    private SpriteRenderer sprite;
  private Animator anim; //variabile per animazione
+
+ [SerializeField] private LayerMask JumpableGround; 
    /* int wholeNumber = 16;
     float decimalNumber = 4.54f;
     string text = "this->";
@@ -18,6 +21,7 @@ public class Zelena_Movement : MonoBehaviour
    private void Start()
     {
        zelena =  GetComponent<Rigidbody2D>();
+       coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
        //int jumpD = 0;
@@ -29,7 +33,7 @@ public class Zelena_Movement : MonoBehaviour
          
         dirX = Input.GetAxisRaw("HorizontalZ");
         zelena.velocity = new Vector2(dirX * 3.5f, zelena.velocity.y);
-       if (Input.GetButtonDown("JumpZ") && !isJumping)
+       if (Input.GetButtonDown("JumpZ") && isGrounded())
        {
         
       zelena.velocity = new Vector3(zelena.velocity.x, 5.5f);
@@ -61,5 +65,10 @@ if (dirX > 0f)
             isJumping = false;
         }
     }
+    private bool isGrounded(){
+       return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, JumpableGround);
+
+    }
 }
+
 
