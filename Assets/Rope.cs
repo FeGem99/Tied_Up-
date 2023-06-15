@@ -5,8 +5,7 @@ public class Rope : MonoBehaviour
 {
    private LineRenderer lineRenderer;
     private List<RopeSegment> ropeSegments = new List<RopeSegment>();
-    private float ropeSegLen = 0.1f;
-    private int segmentLength = 35;
+
     private float lineWidth = 0.1f;
     private int MaxDistance = 8;
     public Transform personaggio1;
@@ -22,7 +21,12 @@ public class Rope : MonoBehaviour
         {
             this.ropeSegments.Add(new RopeSegment(ropeStartPoint));
             ropeStartPoint.y -= ropeSegLen;
+
+            if (i == 35)
+         break;
+            
         }
+        
     }
 
     // Update is called once per frame
