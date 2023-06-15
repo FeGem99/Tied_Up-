@@ -10,6 +10,13 @@ public class Rope : MonoBehaviour
     private int MaxDistance = 8;
     public Transform personaggio1;
     public Transform personaggio2;
+   
+    private float ropeSegLen = 0.1f;
+    private int segmentLength = 35;
+
+
+   
+
 
     // Use this for initialization
     void Start()
