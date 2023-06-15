@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &62560489
+--- !u!1 &204133720
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,23 +131,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 62560492}
-  - component: {fileID: 62560491}
-  - component: {fileID: 62560490}
-  m_Layer: 6
-  m_Name: corda
+  - component: {fileID: 204133721}
+  - component: {fileID: 204133722}
+  - component: {fileID: 204133723}
+  m_Layer: 0
+  m_Name: Rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!120 &62560490
+--- !u!4 &204133721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204133720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.490095, y: 0.39513338, z: 1.0611192}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &204133722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204133720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c317c917be9ce4990cb12d6490da57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaggio1: {fileID: 1462781200}
+  personaggio2: {fileID: 1324607091}
+--- !u!120 &204133723
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62560489}
+  m_GameObject: {fileID: 204133720}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -185,6 +214,7 @@ LineRenderer:
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
+  - {x: 8.356843, y: -0.30076158, z: -0.9351058}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -193,7 +223,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.10619545
+        value: 0.20175362
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -240,39 +270,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &62560491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62560489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f49d36fde872b04285c570270e6faa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personaggio1: {fileID: 1324607091}
-  personaggio2: {fileID: 1462781200}
-  lunghezzaMassima: 8
-  rigidita: 0
-  ritrazioneVelocita: 5
-  allungamentoVelocita: 5
---- !u!4 &62560492
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62560489}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.726495, y: -1.0628333, z: 0.15960479}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &381351770
 GameObject:
   m_ObjectHideFlags: 0
@@ -13822,7 +13819,6 @@ GameObject:
   - component: {fileID: 1324607094}
   - component: {fileID: 1324607097}
   - component: {fileID: 1324607098}
-  - component: {fileID: 1324607099}
   m_Layer: 0
   m_Name: Zelena
   m_TagString: Untagged
@@ -14034,26 +14030,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!231 &1324607099
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324607089}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1462781201}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 4.100195
-  m_DampingRatio: 0
-  m_Frequency: 1
 --- !u!1 &1462781198
 GameObject:
   m_ObjectHideFlags: 0
@@ -14070,7 +14046,6 @@ GameObject:
   - component: {fileID: 1462781203}
   - component: {fileID: 1462781206}
   - component: {fileID: 1462781207}
-  - component: {fileID: 1462781208}
   m_Layer: 0
   m_Name: Dardast
   m_TagString: Untagged
@@ -14282,26 +14257,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!231 &1462781208
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462781198}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1324607093}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 4.100195
-  m_DampingRatio: 0
-  m_Frequency: 1
 --- !u!1 &1984892382
 GameObject:
   m_ObjectHideFlags: 0
