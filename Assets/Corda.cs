@@ -8,8 +8,7 @@ public class Corda : MonoBehaviour
     public Transform personaggio2;
     public float lunghezzaMassima;
     public float rigidita = 5f;
-    public float ritrazioneVelocita = 5f;
-    public float allungamentoVelocita = 5f;
+
 
     private LineRenderer lineRenderer;
     private Rigidbody2D rbPersonaggio1;
@@ -31,7 +30,7 @@ public class Corda : MonoBehaviour
 
     private void Update()
     {
-         Vector2 posizione1 = rbPersonaggio1.position;
+        Vector2 posizione1 = rbPersonaggio1.position;
         Vector2 posizione2 = rbPersonaggio2.position;
 
         Vector2 direzioneAttuale = posizione2 - posizione1;
@@ -43,16 +42,11 @@ public class Corda : MonoBehaviour
             posizione2 = posizione1 + direzioneAttuale;
             rbPersonaggio2.position = posizione2;
         }
-        else if (distanzaAttuale < lunghezzaMassima)
-        {
-            Vector2 ritrazione = (direzioneIniziale.normalized * lunghezzaMassima) - direzioneAttuale;
-            rbPersonaggio1.velocity += ritrazione * ritrazioneVelocita * Time.deltaTime;
-            rbPersonaggio2.velocity -= ritrazione * ritrazioneVelocita * Time.deltaTime;
-        }
 
         lineRenderer.SetPosition(0, posizione1);
         lineRenderer.SetPosition(1, posizione2);
 
+        // Applica una forza per mantenere la distanza iniziale tra i personaggi
         Vector2 forza = rigidita * (direzioneIniziale - direzioneAttuale);
         rbPersonaggio1.AddForce(forza);
         rbPersonaggio2.AddForce(-forza);
