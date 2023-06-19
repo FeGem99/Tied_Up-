@@ -13,6 +13,7 @@ public class Rope : MonoBehaviour
    
     private float ropeSegLen = 0.1f;
     private int segmentLength = 35;
+    private EdgeCollider2D edgeCollider2D;
 
 
    
@@ -23,6 +24,8 @@ public class Rope : MonoBehaviour
     {
         this.lineRenderer = this.GetComponent<LineRenderer>();
         Vector3 ropeStartPoint = personaggio1.position;
+        //inserisco i punti di collisione della corda
+        edgeCollider2D = gameObject.AddComponent<EdgeCollider2D>();
 
         for (int i = 0; i < segmentLength; i++)
         {
@@ -33,6 +36,13 @@ public class Rope : MonoBehaviour
          break;
             
         }
+         Vector2[] colliderPoints = new Vector2[segmentLength];
+    for (int i = 0; i < segmentLength; i++)
+    {
+        colliderPoints[i] = ropeSegments[i].posNow;
+    }
+        edgeCollider2D.points = colliderPoints;
+
         
     }
 
@@ -61,12 +71,34 @@ public class Rope : MonoBehaviour
             firstSegment.posNow += forceGravity * Time.fixedDeltaTime;
             this.ropeSegments[i] = firstSegment;
         }
+        //logica della collisione
+         for (int i = 0; i < segmentLength; i++)
+    {
+        Vector2 segmentPosition = ropeSegments[i].posNow;
+        RaycastHit2D hit = Physics2D.Raycast(segmentPosition, Vector2.zero);
 
+        if (hit.collider != null)
+        {
+// Calcola la nuova posizione dei segmenti
+    Vector2 collisionNormal = hit.normal;
+    float spostamento = 0.1f; // Distanza di spostamento dei segmenti
+    Vector2 spostamentoDirezione = collisionNormal * spostamento;
+
+    // Applica la nuova posizione ai segmenti colpiti
+    for (int j = i; j < segmentLength; j++)
+    {
+        RopeSegment segment = ropeSegments[j];
+        segment.posNow += spostamentoDirezione;
+        ropeSegments[j] = segment;
+    }
+        }
+    }
         //CONSTRAINTS
         for (int i = 0; i < 10; i++)
         {
             this.ApplyConstraint();
         }
+        
     }
 
     private void ApplyConstraint()
@@ -146,6 +178,13 @@ public class Rope : MonoBehaviour
 
         lineRenderer.positionCount = ropePositions.Length;
         lineRenderer.SetPositions(ropePositions);
+// aggiornamento punti del collider
+    Vector2[] colliderPoints = new Vector2[segmentLength];
+    for (int i = 0; i < segmentLength; i++)
+    {
+        colliderPoints[i] = ropeSegments[i].posNow;
+    }
+    edgeCollider2D.points = colliderPoints;
     }
 }
 public struct RopeSegment
