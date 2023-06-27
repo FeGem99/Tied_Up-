@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/livello_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: dfbad3c6071313c44a1c76d7e1c49746
+  - enabled: 1
+    path: Assets/Scenes/itinerario.unity
+    guid: 8f9ddeee70d1c5e44b0f32deb6596f4b
+  - enabled: 1
+    path: Assets/Scenes/stanza_Z.unity
+    guid: 8b08eec1237662945b72c0f009db9a7f
+  - enabled: 1
+    path: Assets/Scenes/stanza_D.unity
+    guid: 2e3b19b3d1737d347b8cba8ca747459c
+  - enabled: 1
+    path: Assets/Scenes/info.unity
+    guid: 9c66ef852217cb543bb9690b653b7845
+  - enabled: 1
+    path: Assets/Scenes/impostazioni.unity
+    guid: ace660a22d159cf46aad18ad5137facc
   m_configObjects: {}
