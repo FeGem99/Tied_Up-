@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Terrain
   - trap
+  - Gems
+  - ManaSprite
+  - HealthSprite
   layers:
   - Default
   - TransparentFX
