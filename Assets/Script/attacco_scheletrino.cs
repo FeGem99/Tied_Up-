@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class attacco_scheletrino: MonoBehaviour
 {
     public Animator animator; // Riferimento all'animator del personaggio
@@ -34,13 +35,15 @@ public class attacco_scheletrino: MonoBehaviour
         }
     }
 
-    // Metodo chiamato dall'animazione quando l'attacco è completo
+    // Metodo chiamato dall'animazione quando l'attacco ï¿½ completo
     public void FinishAttack()
     {
         isAttacking = false;
     }
-
+}
     // Metodo chiamato dall'animazione durante il frame in cui l'arma spara
+
+/*
     public void FireBullet()
     {
         // Crea il proiettile dal prefab
@@ -49,7 +52,7 @@ public class attacco_scheletrino: MonoBehaviour
         // Implementa il comportamento del proiettile (movimento, danni, ecc.)
         // Puoi accedere al componente del proiettile e impostare i parametri necessari
         
-        // Esempio: Ottieni il componente BulletController dal proiettile e imposta la velocità
+        // Esempio: Ottieni il componente BulletController dal proiettile e imposta la velocitï¿½
         BulletController bulletController = bullet.GetComponent<BulletController>();
         bulletController.SetVelocity(gunBarrel.right); // Supponendo che il proiettile abbia un metodo SetVelocity per impostare la direzione
 
@@ -57,3 +60,4 @@ public class attacco_scheletrino: MonoBehaviour
         bullet.transform.SetParent(transform);
     }
 }
+*/
