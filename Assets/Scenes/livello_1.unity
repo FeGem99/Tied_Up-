@@ -107533,7 +107533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.92941177, g: 0.94509804, b: 0.047058824, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -107541,8 +107541,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: faa1c32a76ab771448a3847ec4ea6e5d, type: 3}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -108319,15 +108319,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737041, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.61
+      value: 3.77
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737041, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.07
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737041, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.35
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737041, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_LocalRotation.w
