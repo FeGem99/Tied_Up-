@@ -116,18 +116,24 @@ public class Rope : MonoBehaviour
     float currentDistance = charactersDistance.magnitude;
 
     if (currentDistance > MaxDistance)
-    {
-        Vector2 direction = charactersDistance.normalized;
-        Vector2 maxDistanceOffset = direction * (currentDistance - MaxDistance);
+{
+    Vector2 direction = charactersDistance.normalized;
+    Vector2 maxDistanceOffset = direction * (currentDistance - MaxDistance);
 
-        RopeSegment secondSeg = this.ropeSegments[1];
-        secondSeg.posNow -= maxDistanceOffset;
-        this.ropeSegments[1] = secondSeg;
+    RopeSegment firstSeg = this.ropeSegments[0];
+    firstSeg.posNow += maxDistanceOffset;
+    this.ropeSegments[0] = firstSeg;
 
-        // Update the characters' positions as well
-        personaggio2.position = (Vector2)personaggio1.position + direction * MaxDistance;
-    }
+    RopeSegment lastSeg = this.ropeSegments[segmentLength - 1];
+    lastSeg.posNow -= maxDistanceOffset;
+    this.ropeSegments[segmentLength - 1] = lastSeg;
 
+    Vector2 newPosition1 = (Vector2)personaggio2.position - direction * MaxDistance;
+    Vector2 newPosition2 = (Vector2)personaggio1.position + direction * MaxDistance;
+
+    personaggio1.position = newPosition1;
+    personaggio2.position = newPosition2;
+}
     for (int i = 0; i < this.segmentLength - 1; i++)
     {
         RopeSegment firstSeg = this.ropeSegments[i];
