@@ -12,6 +12,18 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             gemme++;
             GemsText.text = "Gemme: " +gemme;
+
+            //aggiunta logica della fine del livello
+            if (gemme == 3)
+            {
+                GameObject[] sbarre = GameObject.FindGameObjectsWithTag("sbarra");
+
+                // Rimuovi gli oggetti con il tag "sbarra"
+                foreach (GameObject sbarra in sbarre)
+                {
+                    Destroy(sbarra);
+                }
+            }
         }
     }
 }

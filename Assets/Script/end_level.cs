@@ -9,6 +9,9 @@ public class end_level : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("sbarra"))
         {
+            ItemCollector itemCollector = collision.gameObject.GetComponent<ItemCollector>();
+            if (itemCollector != null && itemCollector.gemme == 3)
+            {
             // Ottieni tutti gli oggetti con il tag "sbarra"
             GameObject[] sbarre = GameObject.FindGameObjectsWithTag("sbarra");
 
@@ -16,6 +19,7 @@ public class end_level : MonoBehaviour
             foreach (GameObject sbarra in sbarre)
             {
                 Destroy(sbarra);
+            }
             }
         }
     }
