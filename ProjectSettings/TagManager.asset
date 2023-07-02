@@ -9,6 +9,7 @@ TagManager:
   - Gems
   - ManaSprite
   - HealthSprite
+  - sbarra
   layers:
   - Default
   - TransparentFX
