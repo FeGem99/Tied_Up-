@@ -471,7 +471,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 414984433}
-        m_TargetAssemblyTypeName: play_three, Assembly-CSharp
+        m_TargetAssemblyTypeName: liv3Start, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 414984427}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2fbb086f1dd65543a43e503913cf771, type: 3}
+  m_Script: {fileID: 11500000, guid: a39277ab55520514086470c237814098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &547223836
@@ -1007,7 +1007,7 @@ GameObject:
   - component: {fileID: 1748168609}
   - component: {fileID: 1748168608}
   - component: {fileID: 1748168612}
-  - component: {fileID: 1748168611}
+  - component: {fileID: 1748168613}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -1081,8 +1081,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1748168611}
-        m_TargetAssemblyTypeName: play_one, Assembly-CSharp
+      - m_Target: {fileID: 1748168613}
+        m_TargetAssemblyTypeName: liv1Start, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -1131,18 +1131,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748168605}
   m_CullTransparentMesh: 1
---- !u!114 &1748168611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748168605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a8137c6547eeb54bb89291193703fdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1748168612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1158,6 +1146,18 @@ MonoBehaviour:
   colorChangeDuration: 0.5
   color1: {r: 1, g: 0, b: 0, a: 1}
   color2: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &1748168613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748168605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fced5fc7d791f6045aa6ab666779d0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1816652826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,7 +1329,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2042951477}
-        m_TargetAssemblyTypeName: play_two, Assembly-CSharp
+        m_TargetAssemblyTypeName: liv2Start, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -1402,6 +1402,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2042951471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20c75fe7026af274a8d0ac4a58e70255, type: 3}
+  m_Script: {fileID: 11500000, guid: e3b046da5aeebe14387cae59a42aeaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

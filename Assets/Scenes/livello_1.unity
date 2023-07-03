@@ -114895,6 +114895,6 @@ PrefabInstance:
     - target: {fileID: 8540450866714737051, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: GemsText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1513599742}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
