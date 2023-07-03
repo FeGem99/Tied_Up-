@@ -10,6 +10,7 @@ TagManager:
   - ManaSprite
   - HealthSprite
   - sbarra
+  - exit
   layers:
   - Default
   - TransparentFX
