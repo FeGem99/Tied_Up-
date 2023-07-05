@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/intro-livello3.unity
     guid: 4f07d14bfc76d384d8828666e230e7b5
+  - enabled: 1
+    path: Assets/Scenes/risultati_1.unity
+    guid: 4a581cf1056265f4097e778c0f7f9ffb
+  - enabled: 1
+    path: Assets/Scenes/risultati_2.unity
+    guid: 7ed8d5275b628454b829dfa84fcf0e27
+  - enabled: 1
+    path: Assets/Scenes/risultati_3.unity
+    guid: 11340713c5dfd99409924c23dfdd47a8
   m_configObjects: {}

@@ -9,7 +9,7 @@ public class traguardo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("exit"))
         {
-            SceneManager.LoadScene("menu");
+            SceneManager.LoadScene("risultati_1");
         }
     }
 }
