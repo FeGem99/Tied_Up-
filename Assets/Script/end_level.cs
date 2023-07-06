@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class end_level : MonoBehaviour
 {
+    private score_progress score;
+    private void start(){
+        score = GetComponent<score_progress>();
+    }
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -21,7 +25,9 @@ public class end_level : MonoBehaviour
                 foreach (GameObject sbarra in sbarre)
                 {
                     Destroy(sbarra);
+                    score.StopScoreCounting();
                 }
+                
             }
         }
     }
