@@ -1,29 +1,48 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class score_progress : MonoBehaviour
 {
-    private static int score;
+    public static int score = 100000;
     public Text scoreText;
-    private float decreaseInterval = 1.5f;
-    private float decreaseDelay = 10f; // 3 minuti in secondi
+    private float decreaseInterval = 1f;
+    private float decreaseDelay = 5f; 
     private float timer = 0f;
     private bool isDecreasing = false;
-    private int decreaseAmount = 5;
+    private int decreaseAmount = 250;
+    private bool isCounting = true;
+  //  private bool isSceneRestarted = false;
+
+   
 
     private void Start()
     {
-        // Imposta il punteggio iniziale
-        score_progress.score = 100000;
+
+      // Verifica se la scena è stata riavviata
+        if (PlayerPrefs.HasKey("IsSceneRestarted") && PlayerPrefs.GetInt("IsSceneRestarted") == 1)
+        {
+            setDelay();
+            PlayerPrefs.SetInt("IsSceneRestarted", 0);
+        }
+
+        // Aggiorna il testo del punteggio
+        scoreText.text = score.ToString();  }
+
+    public void setDelay()
+    {
+        decreaseDelay = 0f;
     }
 
     private void Update()
     {
         // Verifica se si è nel processo di respawning
-        bool isRespawning = false; /* Aggiungi qui la tua logica per verificare il respawning */;
+        //bool isCounting = false; /* Aggiungi qui la tua logica per verificare il respawning */;
 
         // Se non si è nel processo di respawning, diminuisci il punteggio
-        if (!isRespawning)
+        if (!isCounting)
+        return;
         {
             // Aggiorna il timer
             timer += Time.deltaTime;
@@ -54,5 +73,13 @@ public class score_progress : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void StopScoreCounting(){
+        isCounting = false;
+    }
+    public static void SetSceneRestarted()
+    {
+        PlayerPrefs.SetInt("IsSceneRestarted", 1);
     }
 }

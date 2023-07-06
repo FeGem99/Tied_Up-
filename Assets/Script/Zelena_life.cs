@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 public class Zelena_life : MonoBehaviour
 {
     private Animator anim; 
-    private Rigidbody2D rb; 
+    private Rigidbody2D rb;
+    private score_progress score; 
     private void Start()
     {
+        score = GetComponent<score_progress>();
         anim = GetComponent <Animator>();
         rb = GetComponent <Rigidbody2D>();
     }
@@ -27,6 +29,7 @@ private void Die()
   private void RestartLevel()
  {
      SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+     score.setDelay();
  }
 
 }
