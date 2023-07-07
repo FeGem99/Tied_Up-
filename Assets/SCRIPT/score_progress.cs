@@ -8,7 +8,7 @@ public class score_progress : MonoBehaviour
     public static int score = 100000;
     public Text scoreText;
     private float decreaseInterval = 1f;
-    private float decreaseDelay = 5f; 
+    private float decreaseDelay = 30f; 
     private float timer = 0f;
     private bool isDecreasing = false;
     private int decreaseAmount = 250;
@@ -28,7 +28,8 @@ public class score_progress : MonoBehaviour
         }
 
         // Aggiorna il testo del punteggio
-        scoreText.text = score.ToString();  }
+        scoreText.text = score.ToString(); 
+         }
 
     public void setDelay()
     {
