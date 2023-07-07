@@ -14,9 +14,10 @@ public class Rope : MonoBehaviour
     private float ropeSegLen = 0.1f;
     private int segmentLength = 35;
     private EdgeCollider2D edgeCollider2D;
+    private float tensionSpeed;
 
 
-   
+
 
 
     // Use this for initialization
@@ -72,27 +73,18 @@ public class Rope : MonoBehaviour
             this.ropeSegments[i] = firstSegment;
         }
         //logica della collisione
-         for (int i = 0; i < segmentLength; i++)
+         if (Vector2.Distance(personaggio1.position, personaggio2.position) > MaxDistance)
     {
-        Vector2 segmentPosition = ropeSegments[i].posNow;
-        RaycastHit2D hit = Physics2D.Raycast(segmentPosition, Vector2.zero);
-
-        if (hit.collider != null)
+        Vector2 direction = (personaggio2.position - personaggio1.position).normalized;
+        Vector2 targetPosition = (Vector2)personaggio1.position + direction * MaxDistance;
+        for (int i = 1; i < this.segmentLength; i++)
         {
-// Calcola la nuova posizione dei segmenti
-    Vector2 collisionNormal = hit.normal;
-    float spostamento = 0.1f; // Distanza di spostamento dei segmenti
-    Vector2 spostamentoDirezione = collisionNormal * spostamento;
-
-    // Applica la nuova posizione ai segmenti colpiti
-    for (int j = i; j < segmentLength; j++)
-    {
-        RopeSegment segment = ropeSegments[j];
-        segment.posNow += spostamentoDirezione;
-        ropeSegments[j] = segment;
-    }
+            RopeSegment segment = this.ropeSegments[i];
+            segment.posNow = targetPosition;
+            this.ropeSegments[i] = segment;
         }
     }
+    
         //CONSTRAINTS
         for (int i = 0; i < 10; i++)
         {
