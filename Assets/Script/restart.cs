@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class pause : MonoBehaviour
+public class restart : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("pause");
+        SceneManager.LoadScene("livello_1");
     }
 }
