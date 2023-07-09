@@ -172,11 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8baf68b4f61fd84e86628beb9184e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pausaPanel: {fileID: 1135107432}
-  punteggioText: {fileID: 2030867046}
-  pausaButton: {fileID: 259042553}
-  backToMenuButton: {fileID: 1378339735}
-  restartButton: {fileID: 1172277629}
+  pausePanel: {fileID: 1135107432}
 --- !u!1 &94825863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1147,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 78891105}
         m_TargetAssemblyTypeName: pause, Assembly-CSharp
-        m_MethodName: TogglePausa
+        m_MethodName: TogglePause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -109097,7 +109093,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 78891105}
         m_TargetAssemblyTypeName: pause, Assembly-CSharp
-        m_MethodName: RestartGioco
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -110689,7 +110685,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 78891105}
         m_TargetAssemblyTypeName: pause, Assembly-CSharp
-        m_MethodName: TornaAlMenu
+        m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

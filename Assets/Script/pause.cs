@@ -4,58 +4,23 @@ using UnityEngine.UI;
 
 public class pause : MonoBehaviour
 {
-public GameObject pausaPanel;
-    public Text punteggioText;
-    public Button pausaButton;
+       public GameObject pausePanel;
     private bool isPaused = false;
-    private int defaultPunteggio = 100000;
-    private int punteggio;
 
-    private void Start()
+    private void Update()
     {
-        punteggio = defaultPunteggio;
-        punteggioText.text = "Punteggio: " + punteggio;
-
-        pausaButton.onClick.AddListener(TogglePausa);
-    }
-
-  
-
-    public void TogglePausa()
-    {
-        if (isPaused)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            RiprendiGioco();
-        }
-        else
-        {
-            MettiInPausa();
+            TogglePause();
         }
     }
 
-    public void MettiInPausa()
+    public void TogglePause()
     {
-        isPaused = true;
-        pausaPanel.SetActive(true);
-        Time.timeScale = 0f;
-    }
+        isPaused = !isPaused;
 
-    public void RiprendiGioco()
-    {
-        isPaused = false;
-        pausaPanel.SetActive(false);
-        Time.timeScale = 1f;
-    }
+        pausePanel.SetActive(isPaused);
 
-    public void RestartGioco()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void TornaAlMenu()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        Time.timeScale = isPaused ? 0f : 1f;
     }
 }
