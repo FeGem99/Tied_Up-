@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class pause : MonoBehaviour
 {
-    public GameObject pausaPanel;
+public GameObject pausaPanel;
     public Text punteggioText;
     public Button pausaButton;
     private bool isPaused = false;
@@ -19,13 +19,7 @@ public class pause : MonoBehaviour
         pausaButton.onClick.AddListener(TogglePausa);
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            TogglePausa();
-        }
-    }
+  
 
     public void TogglePausa()
     {
