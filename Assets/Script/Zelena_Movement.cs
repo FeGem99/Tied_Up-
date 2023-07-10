@@ -5,14 +5,17 @@ using UnityEngine;
 public class Zelena_Movement : MonoBehaviour
 {
     private Rigidbody2D zelena;
-    private BoxCollider2D coll; 
+    private BoxCollider2D coll;
     private bool isJumping = false;
-    private float dirX = 0f; 
+    private float dirX = 0f;
     private SpriteRenderer sprite;
     private Animator anim;
 
     [SerializeField] private LayerMask JumpableGround;
     [SerializeField] private LayerMask JumpableObstacles;
+
+    public int maxHealth = 3;
+    private int currentHealth;
 
     private void Start()
     {
@@ -20,6 +23,8 @@ public class Zelena_Movement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -50,8 +55,30 @@ public class Zelena_Movement : MonoBehaviour
         }
         else
         {
-            anim.SetBool("run_Z", false); 
+            anim.SetBool("run_Z", false);
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        // Aggiorna la barra della vita o esegui altre azioni in base alla vita attuale
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        // Logica per la morte del personaggio
+        if(currentHealth==0)
+        {
+            anim.SetBool("Death", true);
+        }
+        // Puoi disattivare il personaggio, avviare un'animazione di morte, ecc.
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
