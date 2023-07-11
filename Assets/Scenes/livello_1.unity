@@ -112135,11 +112135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GemsText: {fileID: 1513599742}
-  LifeText: {fileID: 0}
   gemme: 0
   gemmeTotali: 0
-  maxLife: 100
-  currentLife: 100
   personaggio1: {fileID: 0}
   personaggio2: {fileID: 0}
 --- !u!114 &1513599742
