@@ -2170,7 +2170,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010896683, y: -0.027243912}
+  m_Offset: {x: 0.17045975, y: -0.027243853}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2181,7 +2181,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.7503319, y: 2.2211614}
+  m_Size: {x: 1.7096481, y: 2.2211614}
   m_EdgeRadius: 0
 --- !u!19719996 &531126641
 TilemapCollider2D:
@@ -112137,8 +112137,6 @@ MonoBehaviour:
   GemsText: {fileID: 1513599742}
   gemme: 0
   gemmeTotali: 0
-  maxLife: 100
- 
   personaggio1: {fileID: 0}
   personaggio2: {fileID: 0}
 --- !u!114 &1513599742
