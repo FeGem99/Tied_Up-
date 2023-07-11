@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine; 
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class Rope : MonoBehaviour
 {
    private LineRenderer lineRenderer;
@@ -16,6 +19,17 @@ public class Rope : MonoBehaviour
     private EdgeCollider2D edgeCollider2D;
     private float tensionSpeed;
 
+    public Text player1LifeText; // Testo UI della vita del personaggio 1
+    public Text player2LifeText; // Testo UI della vita del personaggio 2
+    public int maxLife = 100; // Vita massima dei personaggi
+    private int player1CurrentLife; // Vita attuale del personaggio 1
+    private int player2CurrentLife; // Vita attuale del personaggio 2
+    private bool ropeIsAtMaxSize = false; // Indica se la corda ha raggiunto la dimensione massima
+    private float ropeSizeTimer = 0f; // Timer per calcolare il tempo in cui la corda è alla dimensione massima
+    private float lifeDecreaseInterval = 0.5f; // Intervallo di tempo per la diminuzione della vita
+    private float lifeDecreaseTimer = 0f; // Timer per il calcolo della diminuzione della vita
+    public Animator player1Animator;
+    public Animator player2Animator;
 
 
 
@@ -43,15 +57,25 @@ public class Rope : MonoBehaviour
         colliderPoints[i] = ropeSegments[i].posNow;
     }
         edgeCollider2D.points = colliderPoints;
-
+        
+        player1CurrentLife = maxLife;
+        player2CurrentLife = maxLife;
+        UpdateLifeTexts();
         
     }
 
+    
+
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         this.DrawRope();
+        CheckRopeSize();
+        UpdateLifeBasedOnRopeSize();
+        CheckLife();
     }
+
+   
 
     private void FixedUpdate()
     {
@@ -184,6 +208,73 @@ public class Rope : MonoBehaviour
     }
     edgeCollider2D.points = colliderPoints;
     }
+     private void CheckRopeSize()
+    {
+        float currentDistance = Vector2.Distance(personaggio1.position, personaggio2.position);
+
+        if (currentDistance >= MaxDistance && !ropeIsAtMaxSize)
+        {
+            ropeSizeTimer += Time.deltaTime;
+            if (ropeSizeTimer >= lifeDecreaseInterval)
+            {
+                ropeIsAtMaxSize = true;
+                ropeSizeTimer = 0f;
+            }
+        }
+        else if (currentDistance < MaxDistance)
+        {
+            ropeIsAtMaxSize = false;
+            ropeSizeTimer = 0f;
+        }
+    }
+    private void UpdateLifeBasedOnRopeSize()
+    {
+        if (ropeIsAtMaxSize)
+        {
+            lifeDecreaseTimer += Time.deltaTime;
+            if (lifeDecreaseTimer >= lifeDecreaseInterval)
+            {
+                SubtractLifeFromPlayers();
+                lifeDecreaseTimer = 0f;
+            }
+        }
+    }
+
+    private void SubtractLifeFromPlayers()
+    {
+        player1CurrentLife -= 5;
+        player2CurrentLife -= 5;
+        player1CurrentLife = Mathf.Clamp(player1CurrentLife, 0, maxLife);
+        player2CurrentLife = Mathf.Clamp(player2CurrentLife, 0, maxLife);
+        UpdateLifeTexts();
+    }
+
+    private void UpdateLifeTexts()
+    {
+        player1LifeText.text = " " + player1CurrentLife.ToString();
+        player2LifeText.text = " " + player2CurrentLife.ToString();
+    }
+
+    private void CheckLife()
+    {
+        if (player1CurrentLife <= 0)
+        {
+            player1Animator.SetTrigger("Death_D"); // Attiva l'animazione della morte del player 1
+            StartCoroutine(ReloadScene());
+        }
+        else if (player2CurrentLife <= 0)
+        {
+            player2Animator.SetTrigger("Death"); // Attiva l'animazione della morte del player 2
+            StartCoroutine(ReloadScene());
+        }
+    }
+
+    private IEnumerator ReloadScene()
+    {
+        yield return new WaitForSeconds(2f); // Attendi 2 secondi prima del reload
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
 public struct RopeSegment
 {
@@ -195,4 +286,5 @@ public struct RopeSegment
         this.posNow = pos;
         this.posOld = pos;
     }
+
 }
