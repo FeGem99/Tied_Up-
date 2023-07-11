@@ -112137,6 +112137,8 @@ MonoBehaviour:
   GemsText: {fileID: 1513599742}
   gemme: 0
   gemmeTotali: 0
+  maxLife: 100
+ 
   personaggio1: {fileID: 0}
   personaggio2: {fileID: 0}
 --- !u!114 &1513599742
@@ -116366,7 +116368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6787280103321893927, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6787280103321893930, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
       propertyPath: projectilePrefab
@@ -116538,7 +116540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737039, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737041, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_RootOrder

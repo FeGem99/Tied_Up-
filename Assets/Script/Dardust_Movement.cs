@@ -12,12 +12,15 @@ public class Dardust_Movement : MonoBehaviour
     private Animator anim;
     [SerializeField] private LayerMask JumpableGround;
      [SerializeField] private LayerMask JumpableObstacle;
+      public int maxHealth = 3;
+    private int currentHealth;
     private void Start()
     {
         dardust = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         coll = GetComponent<BoxCollider2D>();
+        currentHealth=maxHealth;
     }
 
     private void Update()
@@ -50,8 +53,28 @@ public class Dardust_Movement : MonoBehaviour
         {
             anim.SetBool("run_D", false);
         }
-    }
+   }
+ 
+ public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
 
+        // Aggiorna la barra della vita o esegui altre azioni in base alla vita attuale
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+     private void Die()
+    {
+        // Logica per la morte del personaggio
+    
+        {
+            anim.SetBool("Death_D", true);
+        }
+        // Puoi disattivare il personaggio, avviare un'animazione di morte, ecc.
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Terrain"))
