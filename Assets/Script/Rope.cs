@@ -28,8 +28,8 @@ public class Rope : MonoBehaviour
     private float ropeSizeTimer = 0f; // Timer per calcolare il tempo in cui la corda è alla dimensione massima
     private float lifeDecreaseInterval = 0.5f; // Intervallo di tempo per la diminuzione della vita
     private float lifeDecreaseTimer = 0f; // Timer per il calcolo della diminuzione della vita
-    private Animator player1Animator;
-    private Animator player2Animator;
+    public Animator player1Animator;
+    public Animator player2Animator;
 
 
 
@@ -259,12 +259,12 @@ public class Rope : MonoBehaviour
     {
         if (player1CurrentLife <= 0)
         {
-            player1Animator.SetTrigger("Death"); // Attiva l'animazione della morte del player 1
+            player1Animator.SetTrigger("Death_D"); // Attiva l'animazione della morte del player 1
             StartCoroutine(ReloadScene());
         }
         else if (player2CurrentLife <= 0)
         {
-            player2Animator.SetTrigger("Death_D"); // Attiva l'animazione della morte del player 2
+            player2Animator.SetTrigger("Death"); // Attiva l'animazione della morte del player 2
             StartCoroutine(ReloadScene());
         }
     }

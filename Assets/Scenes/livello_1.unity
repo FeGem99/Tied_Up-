@@ -112135,8 +112135,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GemsText: {fileID: 1513599742}
+  LifeText: {fileID: 0}
   gemme: 0
   gemmeTotali: 0
+  maxLife: 100
+  currentLife: 100
   personaggio1: {fileID: 0}
   personaggio2: {fileID: 0}
 --- !u!114 &1513599742
@@ -116271,6 +116274,22 @@ PrefabInstance:
       propertyPath: personaggio2
       value: 
       objectReference: {fileID: 1324607091}
+    - target: {fileID: 5528922219829832815, guid: 036b68c74b7ab44809723ac31bc4ee34, type: 3}
+      propertyPath: player1Animator
+      value: 
+      objectReference: {fileID: 8540450865889492098}
+    - target: {fileID: 5528922219829832815, guid: 036b68c74b7ab44809723ac31bc4ee34, type: 3}
+      propertyPath: player1LifeText
+      value: 
+      objectReference: {fileID: 425868846}
+    - target: {fileID: 5528922219829832815, guid: 036b68c74b7ab44809723ac31bc4ee34, type: 3}
+      propertyPath: player2Animator
+      value: 
+      objectReference: {fileID: 6787280104224463447}
+    - target: {fileID: 5528922219829832815, guid: 036b68c74b7ab44809723ac31bc4ee34, type: 3}
+      propertyPath: player2LifeText
+      value: 
+      objectReference: {fileID: 184137616}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 036b68c74b7ab44809723ac31bc4ee34, type: 3}
 --- !u!1001 &6787280104224463446
@@ -116365,6 +116384,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1513599742}
     - target: {fileID: 6787280103321893931, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
+      propertyPath: LifeText
+      value: 
+      objectReference: {fileID: 425868846}
+    - target: {fileID: 6787280103321893931, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
+      propertyPath: vitaText
+      value: 
+      objectReference: {fileID: 425868846}
+    - target: {fileID: 6787280103321893931, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
       propertyPath: personaggio1
       value: 
       objectReference: {fileID: 1754781855}
@@ -116403,6 +116430,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6787280103321893930, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
+--- !u!95 &6787280104224463447 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6787280103321893932, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
+  m_PrefabInstance: {fileID: 6787280104224463446}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8518678727474089335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116416,11 +116448,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8518678728634424061, guid: b607c99df094c4d3cbfb1b282917cba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 136.7
+      value: 48.03
       objectReference: {fileID: 0}
     - target: {fileID: 8518678728634424061, guid: b607c99df094c4d3cbfb1b282917cba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.5
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8518678728634424061, guid: b607c99df094c4d3cbfb1b282917cba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -116584,6 +116616,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1513599742}
     - target: {fileID: 8540450866714737051, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
+      propertyPath: vitaText
+      value: 
+      objectReference: {fileID: 184137616}
+    - target: {fileID: 8540450866714737051, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: personaggio1
       value: 
       objectReference: {fileID: 1274022359}
@@ -116593,3 +116629,8 @@ PrefabInstance:
       objectReference: {fileID: 1754781855}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
+--- !u!95 &8540450865889492098 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8540450866714737046, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
+  m_PrefabInstance: {fileID: 8540450865889492097}
+  m_PrefabAsset: {fileID: 0}
