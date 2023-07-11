@@ -44,10 +44,16 @@ public class Sheletrini : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+
             Zelena_Movement zelenaMovement = collision.gameObject.GetComponent<Zelena_Movement>();
+            Dardust_Movement dardustMovement = collision.gameObject.GetComponent<Dardust_Movement>();
             if (zelenaMovement != null)
             {
                 zelenaMovement.TakeDamage(1);
+            }
+            else if (dardustMovement!= null)
+            {
+                dardustMovement.TakeDamage(1);
             }
         }
 }
