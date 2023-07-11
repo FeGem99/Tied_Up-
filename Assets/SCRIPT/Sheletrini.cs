@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Sheletrini : MonoBehaviour
 {
+    private bool isAttacking = false;
     public float velocita = 3f;
     public float distanzaMassima = 5f;
     public Animator animator;
@@ -27,7 +28,8 @@ public class Sheletrini : MonoBehaviour
 
         float spostamento = velocita * Time.deltaTime * direzione;
         transform.Translate(new Vector3(spostamento, 0f, 0f));
-
+        
+        if (!isAttacking){
         if (direzione == 1)
         {
             animator.SetBool("run", true);
@@ -38,13 +40,16 @@ public class Sheletrini : MonoBehaviour
             animator.SetBool("run", true);
             transform.localScale = new Vector3(-0.5f, 0.4f, 1f);
         }
+}
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+    
         if (collision.gameObject.CompareTag("Player"))
         {
-
+            isAttacking= true;
+            animator.SetBool("touch", true);
             Zelena_Movement zelenaMovement = collision.gameObject.GetComponent<Zelena_Movement>();
             Dardust_Movement dardustMovement = collision.gameObject.GetComponent<Dardust_Movement>();
             if (zelenaMovement != null)
@@ -55,6 +60,16 @@ public class Sheletrini : MonoBehaviour
             {
                 dardustMovement.TakeDamage(1);
             }
+         
         }
-}
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isAttacking = false;
+            animator.SetBool("touch", false);
+        }
+    }
+
 }
