@@ -5,12 +5,9 @@ using UnityEngine.UI;
 public class ItemCollector : MonoBehaviour
 {
     [SerializeField] private Text GemsText;
-    [SerializeField] private Text LifeText; // Testo UI che rappresenta la vita del personaggio
     public int gemme = 0;
     public int gemmeTotali = 0;
-    public int maxLife = 100;
-    private int currentLife;
-    private int up = 15;
+  
     public GameObject personaggio1; // Riferimento al primo personaggio
     public GameObject personaggio2; // Riferimento al secondo personaggio
 
@@ -30,15 +27,7 @@ public class ItemCollector : MonoBehaviour
             
            
 
-            if (currentLife < maxLife)
-            {
-                currentLife += up;
-                currentLife = Mathf.Clamp(currentLife, 0, maxLife); // Assicurati che la vita non superi il valore massimo
-
-                // Aggiorna il testo UI della vita del personaggio
-                LifeText.text = " " + up.ToString();
-            }
-
+           
             // Aggiungi logica per la fine del livello
             if (gemmeTotali == 3)
             {
