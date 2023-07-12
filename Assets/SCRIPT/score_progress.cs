@@ -8,7 +8,7 @@ public class score_progress : MonoBehaviour
     public static int score = 100000;
     public Text scoreText;
     private float decreaseInterval = 1f;
-    private float decreaseDelay = 60f; 
+    private float decreaseDelay = 150f; 
     private float timer = 0f;
     private bool isDecreasing = false;
     private int decreaseAmount = 250;
