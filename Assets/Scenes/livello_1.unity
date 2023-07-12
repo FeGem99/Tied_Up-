@@ -112138,6 +112138,8 @@ MonoBehaviour:
   GemsText: {fileID: 1513599742}
   gemme: 0
   gemmeTotali: 0
+  playerLifeText: {fileID: 0}
+  maxLife: 100
   personaggio1: {fileID: 0}
   personaggio2: {fileID: 0}
 --- !u!114 &1513599742
@@ -116640,6 +116642,10 @@ PrefabInstance:
       propertyPath: personaggio2
       value: 
       objectReference: {fileID: 1274022359}
+    - target: {fileID: 6787280103321893931, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
+      propertyPath: playerLifeText
+      value: 
+      objectReference: {fileID: 425868846}
     - target: {fileID: 6787280103321893933, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
       propertyPath: lifeText
       value: 
@@ -116891,6 +116897,10 @@ PrefabInstance:
       propertyPath: personaggio2
       value: 
       objectReference: {fileID: 1754781855}
+    - target: {fileID: 8540450866714737051, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
+      propertyPath: playerLifeText
+      value: 
+      objectReference: {fileID: 184137616}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
 --- !u!95 &8540450865889492098 stripped

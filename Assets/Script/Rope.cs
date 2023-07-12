@@ -30,6 +30,7 @@ public class Rope : MonoBehaviour
     private float lifeDecreaseTimer = 0f; // Timer per il calcolo della diminuzione della vita
     public Animator player1Animator;
     public Animator player2Animator;
+    
 
 
 
@@ -246,6 +247,7 @@ public class Rope : MonoBehaviour
         player2CurrentLife -= 5;
         player1CurrentLife = Mathf.Clamp(player1CurrentLife, 0, maxLife);
         player2CurrentLife = Mathf.Clamp(player2CurrentLife, 0, maxLife);
+
         UpdateLifeTexts();
     }
 
