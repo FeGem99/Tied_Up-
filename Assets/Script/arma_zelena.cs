@@ -6,12 +6,16 @@ using UnityEngine;
 
 public class arma_zelena : MonoBehaviour
 {
+    private Animator anim; 
     public GameObject projectilePrefab; // Prefab del proiettile da istanziare
     public Transform firePoint; // Punto di origine del proiettile
     public KeyCode fireKey = KeyCode.DownArrow; // Tasto per attivare l'azione dell'arma
 
     private bool canFire = true; // Indica se l'arma può sparare
-
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
     private void Update()
     {
         if (Input.GetKeyDown(fireKey) && canFire)
@@ -32,7 +36,9 @@ public class arma_zelena : MonoBehaviour
 
         // Esempio: applica una forza al proiettile nella direzione corretta
         Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
-        projectileRigidbody.AddForce(Vector2.right * direction * 500f);
+        projectileRigidbody.AddForce(Vector2.right * direction * 500f); 
+        projectileRigidbody.gravityScale = 0f; // Imposta la gravità a 0 per il proiettile
+
 
         // Disabilita temporaneamente la possibilità di sparare per evitare il fuoco continuo
         canFire = false;
@@ -43,6 +49,7 @@ public class arma_zelena : MonoBehaviour
 
     private IEnumerator ResetFire()
     {
+        
         // Attendi per un certo intervallo di tempo prima di riabilitare l'uso dell'arma
         yield return new WaitForSeconds(1f); // Modifica il valore se desideri un intervallo diverso
 

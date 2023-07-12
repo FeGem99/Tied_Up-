@@ -5,6 +5,9 @@ using UnityEngine;
 public class Sheletrini : MonoBehaviour
 {
     private bool isAttacking = false;
+    
+    public int maxHealth = 3;
+    private int currentHealth;
     public float velocita = 3f;
     public float distanzaMassima = 5f;
     public Animator animator;
@@ -15,6 +18,7 @@ public class Sheletrini : MonoBehaviour
     private void Start()
     {
         posizioneIniziale = transform.position;
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -71,5 +75,18 @@ public class Sheletrini : MonoBehaviour
             animator.SetBool("touch", false);
         }
     }
+private void Die()
+{
+    // Logica per la sconfitta dello scheletro
+    Destroy(gameObject); // Distruggi il gameObject dello scheletro
+}
+public void TakeDamage(int damage)
+{
+    currentHealth -= damage;
 
+    if (currentHealth <= 0)
+    {
+        Die();
+    }
+}
 }

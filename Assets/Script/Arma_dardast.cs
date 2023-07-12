@@ -23,7 +23,7 @@ public class Arma_dardast : MonoBehaviour
     private void Attack()
     {
         // Avvia l'animazione di attacco
-        animator.SetTrigger("Dardust_Attacco");
+        animator.SetTrigger("Attacco");
     }
 
 }
