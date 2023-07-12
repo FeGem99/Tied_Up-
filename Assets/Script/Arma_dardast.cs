@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Arma_dardast : MonoBehaviour
 {
-
     public Animator animator;
+
+    private bool isAttacking = false;
 
     private void Start()
     {
@@ -14,16 +15,23 @@ public class Arma_dardast : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetAxisRaw("Attack_D") != 0f && !isAttacking)
         {
-            Attack();
+            StartCoroutine(AttackCoroutine());
         }
     }
 
-    private void Attack()
+    private IEnumerator AttackCoroutine()
     {
-        // Avvia l'animazione di attacco
-        animator.SetTrigger("Attacco");
-    }
+        isAttacking = true;
 
+        animator.SetTrigger("Attacco");
+
+        // Attendi fino a quando l'animazione di attacco è completata
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+
+        animator.SetTrigger("RitornaNormale");
+
+        isAttacking = false;
+    }
 }
