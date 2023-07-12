@@ -34,4 +34,16 @@ public class Arma_dardast : MonoBehaviour
 
         isAttacking = false;
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Nemico") && isAttacking)
+        {
+            Sheletrini sheletrini = collision.gameObject.GetComponent<Sheletrini>();
+            if (sheletrini != null)
+            {
+                sheletrini.TakeDamage(1);
+            }
+        }
+    }
 }
