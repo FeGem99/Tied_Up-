@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Zelena_Movement : MonoBehaviour
 {
+
     private Rigidbody2D zelena;
     private BoxCollider2D coll;
     private bool isJumping = false;
