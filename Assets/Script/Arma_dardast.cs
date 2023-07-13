@@ -4,46 +4,44 @@ using UnityEngine;
 
 public class Arma_dardast : MonoBehaviour
 {
-    public Animator animator;
-
     private bool isAttacking = false;
+    private Animator animator;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (Input.GetAxisRaw("Attack_D") != 0f && !isAttacking)
+        if (collision.gameObject.CompareTag("nemico") && isAttacking)
         {
-            StartCoroutine(AttackCoroutine());
-        }
-    }
+            // Cambia il tag del personaggio in "attaccante"
+            gameObject.tag = "attaccante";
 
-    private IEnumerator AttackCoroutine()
-    {
-        isAttacking = true;
-
-        animator.SetTrigger("Attacco");
-
-        // Attendi fino a quando l'animazione di attacco è completata
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-
-        animator.SetTrigger("RitornaNormale");
-
-        isAttacking = false;
-    }
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Nemico") && isAttacking)
-        {
+            // Infliggi danno al nemico
             Sheletrini sheletrini = collision.gameObject.GetComponent<Sheletrini>();
             if (sheletrini != null)
             {
-                sheletrini.TakeDamage(1);
+                sheletrini.TakeDamage(3);
             }
+        }
+    }
+
+    private void Update()
+    {
+        // Controlla se il tasto S è premuto per attaccare
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            isAttacking = true;
+
+            // Avvia l'animazione di attacco
+            animator.SetTrigger("Attacco");
+        }
+        else if (Input.GetKeyUp(KeyCode.S))
+        {
+            isAttacking = false;
+            animator.SetTrigger("RitornaNormale");
         }
     }
 }

@@ -13,6 +13,7 @@ public class attacco_scheletrino: MonoBehaviour
 
     private bool isAttacking = false; // Flag per l'attacco in corso
     private float attackTimer = 0f; // Timer per il controllo degli attacchi
+    
 
     private void Update()
     {
