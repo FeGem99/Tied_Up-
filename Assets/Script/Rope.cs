@@ -30,6 +30,7 @@ public class Rope : MonoBehaviour
     private float lifeDecreaseTimer = 0f; // Timer per il calcolo della diminuzione della vita
     public Animator player1Animator;
     public Animator player2Animator;
+    private Sheletrini sheletrini;
     
 
 
@@ -61,7 +62,14 @@ public class Rope : MonoBehaviour
         
         player1CurrentLife = maxLife;
         player2CurrentLife = maxLife;
+        
         UpdateLifeTexts();
+
+        Sheletrini sheletrini = FindObjectOfType<Sheletrini>();
+        if (sheletrini != null)
+        {
+            sheletrini.OnAttack += HandleSheletriniAttack;
+        }
         
     }
 
@@ -74,6 +82,7 @@ public class Rope : MonoBehaviour
         CheckRopeSize();
         UpdateLifeBasedOnRopeSize();
         CheckLife();
+       // SubtractLifeFromPlayers();
     }
 
    
@@ -249,6 +258,21 @@ public class Rope : MonoBehaviour
         player2CurrentLife = Mathf.Clamp(player2CurrentLife, 0, maxLife);
 
         UpdateLifeTexts();
+
+        //Sheletrini sheletrini = GetComponent<Sheletrini>();
+    
+    
+    }
+
+     private void HandleSheletriniAttack(int damage)
+    {
+      player1CurrentLife -= damage;
+        player2CurrentLife -= damage;
+        player1CurrentLife = Mathf.Max(player1CurrentLife, 0);
+        player2CurrentLife = Mathf.Max(player2CurrentLife, 0);
+        UpdateLifeTexts();
+
+    
     }
 
     private void UpdateLifeTexts()

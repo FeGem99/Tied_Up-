@@ -23,7 +23,7 @@ public class Arma_dardast : MonoBehaviour
             Sheletrini sheletrini = collision.gameObject.GetComponent<Sheletrini>();
             if (sheletrini != null)
             {
-                sheletrini.TakeDamage(3);
+                sheletrini.TakeDamage(20);
             }
         }
     }
