@@ -12,6 +12,7 @@ TagManager:
   - sbarra
   - exit
   - nemico
+  - proiettile
   layers:
   - Default
   - TransparentFX
