@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; 
-using UnityEngine.UI;
 
 public class arma_zelena : MonoBehaviour
 {
@@ -31,48 +29,53 @@ public class arma_zelena : MonoBehaviour
 
     private void Fire()
     {
+        // Attiva l'animazione di attacco
+     anim.SetTrigger("Attack_z");
     
-// Crea un'offset per regolare la posizione di partenza del proiettile
-Vector3 firePointOffset = new Vector3(0f, 0.5f, 0f);
+        // Crea un'offset per regolare la posizione di partenza del proiettile
+        Vector3 firePointOffset = new Vector3(0f, 0.5f, 0f);
 
-// Calcola la posizione di partenza del proiettile tenendo conto dell'offset
-Vector3 projectileStartPosition = transform.position + firePointOffset;
+        // Calcola la posizione di partenza del proiettile tenendo conto dell'offset
+        Vector3 projectileStartPosition = transform.position + firePointOffset;
 
-// Crea un nuovo proiettile a partire dal prefab
-GameObject projectile = Instantiate(projectilePrefab, projectileStartPosition, Quaternion.identity);
-    // Determina la direzione del personaggio in base all'input di movimento
-    float direction = Input.GetAxisRaw("HorizontalZ");
+        // Crea un nuovo proiettile a partire dal prefab
+        GameObject projectile = Instantiate(projectilePrefab, projectileStartPosition, Quaternion.identity);
 
-    // Esegui eventuali altre azioni dell'arma, come l'animazione dell'attacco
+        // Determina la direzione del personaggio in base all'input di movimento
+        float direction = Input.GetAxisRaw("HorizontalZ");
 
-    // Esempio: applica una forza al proiettile nella direzione corretta
-    Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
-    projectileRigidbody.AddForce(Vector2.right * direction * 500f);
-    projectileRigidbody.gravityScale = 0f; // Imposta la gravità a 0 per il proiettile
+        // Esegui eventuali altre azioni dell'arma, come l'animazione dell'attacco
 
-    // Disabilita temporaneamente la possibilità di sparare per evitare il fuoco continuo
-    canFire = false;
+        // Esempio: applica una forza al proiettile nella direzione corretta
+        Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
+        projectileRigidbody.AddForce(Vector2.right * direction * 500f);
+        projectileRigidbody.gravityScale = 0f; // Imposta la gravità a 0 per il proiettile
 
-    // Avvia una coroutine per riabilitare l'uso dell'arma dopo un certo intervallo di tempo
-    StartCoroutine(ResetFire(projectile));
-}
+        // Disabilita temporaneamente la possibilità di sparare per evitare il fuoco continuo
+        canFire = false;
 
-   private IEnumerator ResetFire(GameObject projectile)
-{
-    // Attendi per un certo intervallo di tempo prima di riabilitare l'uso dell'arma
-    yield return new WaitForSeconds(1f); // Modifica il valore se desideri un intervallo diverso
-
-    // Riabilita l'uso dell'arma
-    canFire = true;
-
-    // Distruggi il proiettile
-    if (projectile != null)
-    {
-        Destroy(projectile);
+        // Avvia una coroutine per riabilitare l'uso dell'arma dopo un certo intervallo di tempo
+        StartCoroutine(ResetFire(projectile));
     }
-}
 
+    private IEnumerator ResetFire(GameObject projectile)
+    {
+        // Attendi per un certo intervallo di tempo prima di riabilitare l'uso dell'arma
+        yield return new WaitForSeconds(1f); // Modifica il valore se desideri un intervallo diverso
 
+        // Riabilita l'uso dell'arma
+        canFire = true;
+
+        // Distruggi il proiettile
+        if (projectile != null)
+        {
+            Destroy(projectile);
+            anim.SetTrigger("Return_z");
+        }
+
+        // Termina l'animazione di attacco
+        
+    }
 
     private IEnumerator EnableCharacterCollision(Collider2D characterCollider, Collider2D projectileCollider)
     {
@@ -89,5 +92,4 @@ GameObject projectile = Instantiate(projectilePrefab, projectileStartPosition, Q
         // Riabilita lo script del personaggio
         zelenaMovement.enabled = true;
     }
-
 }
