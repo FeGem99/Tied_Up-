@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 6787280103321893935}
   - component: {fileID: 6787280103321893932}
   - component: {fileID: 6787280103321893933}
-  - component: {fileID: 6787280103321893930}
   - component: {fileID: 6787280103321893931}
   m_Layer: 0
   m_Name: Zelena
@@ -249,21 +248,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeText: {fileID: 0}
   maxLife: 100
---- !u!114 &6787280103321893930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6787280103321893927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67befc4c5a5f705428731b7ab91dd911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
-  firePoint: {fileID: 6787280103321893925}
-  fireKey: 274
 --- !u!114 &6787280103321893931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +263,8 @@ MonoBehaviour:
   GemsText: {fileID: 0}
   gemme: 0
   gemmeTotali: 0
+  playerLifeText: {fileID: 0}
+  maxLife: 100
   personaggio1: {fileID: 0}
   personaggio2: {fileID: 0}
 --- !u!1 &6787280104127308330

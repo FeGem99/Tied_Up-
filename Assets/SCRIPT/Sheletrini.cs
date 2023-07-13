@@ -78,6 +78,10 @@ public class Sheletrini : MonoBehaviour
         animator.SetBool("touch", false);
         canAttack = true; // Permette allo scheletrino di attaccare di nuovo
     }
+    if(collision.gameObject.CompareTag("proiettile"))
+    {
+        TakeDamage(3);
+    }
 }
 private void Die()
 {
