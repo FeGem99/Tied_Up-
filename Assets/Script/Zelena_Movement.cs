@@ -54,7 +54,10 @@ public class Zelena_Movement : MonoBehaviour
             anim.SetBool("run_Z", true);
             sprite.flipX = true;
         }
-        else
+        else if (Input.GetButtonDown("Attack_Z")){
+            anim.SetTrigger("Attack_z");
+        }
+    else 
         {
             anim.SetBool("run_Z", false);
         }
