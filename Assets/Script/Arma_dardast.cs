@@ -30,15 +30,17 @@ public class Arma_dardast : MonoBehaviour
 
     private void Update()
     {
-        // Controlla se il tasto S è premuto per attaccare
-        if (Input.GetKeyDown(KeyCode.S))
+        // Controlla se il tasto S è stato premuto per attaccare
+        if (Input.GetKeyDown(KeyCode.S) && !isAttacking)
         {
             isAttacking = true;
 
             // Avvia l'animazione di attacco
             animator.SetTrigger("Attacco");
         }
-        else if (Input.GetKeyUp(KeyCode.S))
+
+        // Controlla se il tasto S è stato rilasciato per tornare allo stato normale
+        if (Input.GetKeyUp(KeyCode.S) && isAttacking)
         {
             isAttacking = false;
             animator.SetTrigger("RitornaNormale");
