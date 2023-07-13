@@ -15,6 +15,8 @@ public class Sheletrini : MonoBehaviour
 
     private Vector3 posizioneIniziale;
     private int direzione = 1;
+    private bool canAttack = true;
+    
 
     private void Start()
     {
@@ -49,37 +51,34 @@ public class Sheletrini : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Player") && canAttack)
     {
-    
-        if (collision.gameObject.CompareTag("Player"))
+        isAttacking = true;
+        animator.SetBool("touch", true);
+        Zelena_Movement zelenaMovement = collision.gameObject.GetComponent<Zelena_Movement>();
+        Dardust_Movement dardustMovement = collision.gameObject.GetComponent<Dardust_Movement>();
+        
+        if (zelenaMovement != null)
         {
-            isAttacking= true;
-            animator.SetBool("touch", true);
-            Zelena_Movement zelenaMovement = collision.gameObject.GetComponent<Zelena_Movement>();
-            Dardust_Movement dardustMovement = collision.gameObject.GetComponent<Dardust_Movement>();
-            if (zelenaMovement != null)
-            {
-                zelenaMovement.TakeDamage(1);
-            }
-            else if (dardustMovement!= null)
-            {
-                dardustMovement.TakeDamage(1);
-            }
-         
+            zelenaMovement.TakeDamage(1);
+        }
+        else if (dardustMovement != null)
+        {
+            dardustMovement.TakeDamage(1);
+            canAttack = false; // Impedisce allo scheletrino di attaccare nuovamente
         }
     }
+}
     private void OnCollisionExit2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Player"))
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            isAttacking = false;
-            animator.SetBool("touch", false);
-        }
-        if (collision.gameObject.CompareTag("proiettile"))
-    {
-        TakeDamage(3);
+        isAttacking = false;
+        animator.SetBool("touch", false);
+        canAttack = true; // Permette allo scheletrino di attaccare di nuovo
     }
-    }
+}
 private void Die()
 {
     // Logica per la sconfitta dello scheletro
