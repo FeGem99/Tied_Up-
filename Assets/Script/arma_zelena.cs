@@ -90,16 +90,4 @@ GameObject projectile = Instantiate(projectilePrefab, projectileStartPosition, Q
         zelenaMovement.enabled = true;
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-       GameObject otherGameObject = collision.gameObject;
-    if (otherGameObject.CompareTag("nemico"))
-    {
-        Sheletrini sheletrino = otherGameObject.GetComponent<Sheletrini>();
-        if (sheletrino != null)
-        {
-            sheletrino.TakeDamage(3);
-        }
-    }
-    }
 }

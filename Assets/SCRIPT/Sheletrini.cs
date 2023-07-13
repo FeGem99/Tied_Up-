@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Sheletrini : MonoBehaviour
 {
-    private bool isAttacking = false;
-    
-    public int maxHealth = 3;
-    private int currentHealth;
     public float velocita = 3f;
+
+    private bool isAttacking = false;
     public float distanzaMassima = 5f;
     public Animator animator;
+    public int maxHealth;
+
+    private int currentHealth;
 
     private Vector3 posizioneIniziale;
     private int direzione = 1;
@@ -19,6 +20,7 @@ public class Sheletrini : MonoBehaviour
     {
         posizioneIniziale = transform.position;
         currentHealth = maxHealth;
+        
     }
 
     private void Update()
@@ -32,10 +34,10 @@ public class Sheletrini : MonoBehaviour
 
         float spostamento = velocita * Time.deltaTime * direzione;
         transform.Translate(new Vector3(spostamento, 0f, 0f));
-        
-        if (!isAttacking){
+
         if (direzione == 1)
         {
+            
             animator.SetBool("run", true);
             transform.localScale = new Vector3(0.5f, 0.4f, 1f);
         }
@@ -44,7 +46,6 @@ public class Sheletrini : MonoBehaviour
             animator.SetBool("run", true);
             transform.localScale = new Vector3(-0.5f, 0.4f, 1f);
         }
-}
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -74,6 +75,10 @@ public class Sheletrini : MonoBehaviour
             isAttacking = false;
             animator.SetBool("touch", false);
         }
+        if (collision.gameObject.CompareTag("proiettile"))
+    {
+        TakeDamage(3);
+    }
     }
 private void Die()
 {
@@ -89,4 +94,5 @@ public void TakeDamage(int damage)
         Die();
     }
 }
+
 }
