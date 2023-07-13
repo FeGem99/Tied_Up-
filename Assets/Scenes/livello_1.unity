@@ -2131,7 +2131,7 @@ GameObject:
   - component: {fileID: 531126646}
   m_Layer: 8
   m_Name: scheletro_oscuro
-  m_TagString: Untagged
+  m_TagString: nemico
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2170,7 +2170,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.17045975, y: -0.027243853}
+  m_Offset: {x: 0.17045975, y: 0.5255457}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2181,7 +2181,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 1.7096481, y: 2.2211614}
+  m_Size: {x: 1.7096481, y: 3.3267405}
   m_EdgeRadius: 0
 --- !u!19719996 &531126641
 TilemapCollider2D:
@@ -2318,8 +2318,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531126637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.55, y: -0.79, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.4, z: 1}
+  m_LocalPosition: {x: 40.5657, y: -0.8141, z: 0}
+  m_LocalScale: {x: 0.41919827, y: 0.40305316, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -113569,13 +113569,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3474bd140a8f39c45bc27138c2eea711, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0
+  m_Pitch: 0.76
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 200
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -114027,9 +114027,10 @@ GameObject:
   - component: {fileID: 1787542090}
   - component: {fileID: 1787542089}
   - component: {fileID: 1787542092}
+  - component: {fileID: 1787542093}
   m_Layer: 8
   m_Name: fuoco
-  m_TagString: trap
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114148,6 +114149,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.05, y: 0.05}
   m_EdgeRadius: 0
+--- !u!114 &1787542093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787542088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67befc4c5a5f705428731b7ab91dd911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 1787542088}
+  firePoint: {fileID: 1324607091}
+  fireKey: 274
 --- !u!1 &1795353390
 GameObject:
   m_ObjectHideFlags: 0
@@ -116721,21 +116737,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 6787280103321893932, guid: c6c3493629d6443e083bdc6307ccbc8a, type: 3}
   m_PrefabInstance: {fileID: 6787280104224463446}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6787280104224463448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754781855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67befc4c5a5f705428731b7ab91dd911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 1787542088}
-  firePoint: {fileID: 1324607091}
-  fireKey: 274
 --- !u!1001 &8518678727474089335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116903,6 +116904,10 @@ PrefabInstance:
     - target: {fileID: 8540450866714737044, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: m_Offset.y
       value: -0.39725256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8540450866714737047, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
+      propertyPath: maxHealth
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8540450866714737047, guid: 5c1c1fafdf3bb4936a6e49ab01d2741d, type: 3}
       propertyPath: JumpableObstacle.m_Bits

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
+using UnityEngine.UI;
 
 public class arma_zelena : MonoBehaviour
 {
@@ -30,18 +32,14 @@ public class arma_zelena : MonoBehaviour
     private void Fire()
     {
     
-   // Crea un'offset per regolare la posizione di partenza del proiettile
-Vector3 firePointOffset = new Vector3(0f, -2f, 0f);
+// Crea un'offset per regolare la posizione di partenza del proiettile
+Vector3 firePointOffset = new Vector3(0f, 0.5f, 0f);
 
 // Calcola la posizione di partenza del proiettile tenendo conto dell'offset
-Vector3 projectileStartPosition = firePoint.position + firePointOffset;
+Vector3 projectileStartPosition = transform.position + firePointOffset;
 
 // Crea un nuovo proiettile a partire dal prefab
-
-
- // Crea un nuovo proiettile a partire dal prefab
-    GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-
+GameObject projectile = Instantiate(projectilePrefab, projectileStartPosition, Quaternion.identity);
     // Determina la direzione del personaggio in base all'input di movimento
     float direction = Input.GetAxisRaw("HorizontalZ");
 
@@ -94,13 +92,14 @@ Vector3 projectileStartPosition = firePoint.position + firePointOffset;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Nemico"))
+       GameObject otherGameObject = collision.gameObject;
+    if (otherGameObject.CompareTag("nemico"))
+    {
+        Sheletrini sheletrino = otherGameObject.GetComponent<Sheletrini>();
+        if (sheletrino != null)
         {
-            Sheletrini sheletrini = collision.gameObject.GetComponent<Sheletrini>();
-            if (sheletrini != null)
-            {
-                sheletrini.TakeDamage(1);
-            }
+            sheletrino.TakeDamage(3);
         }
+    }
     }
 }
