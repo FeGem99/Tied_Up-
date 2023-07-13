@@ -12,7 +12,7 @@ public class Dardust_Movement : MonoBehaviour
     private Animator anim;
     [SerializeField] private LayerMask JumpableGround;
      [SerializeField] private LayerMask JumpableObstacle;
-      public int maxHealth = 3;
+      public int maxHealth = 5;
     private int currentHealth;
     private void Start()
     {
