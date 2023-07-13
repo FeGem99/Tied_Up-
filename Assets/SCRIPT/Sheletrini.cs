@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,13 +10,14 @@ public class Sheletrini : MonoBehaviour
     private bool isAttacking = false;
     public float distanzaMassima = 5f;
     public Animator animator;
-    public int maxHealth;
+    public int maxHealth = 40;
 
     private int currentHealth;
 
     private Vector3 posizioneIniziale;
     private int direzione = 1;
     private bool canAttack = true;
+  public event System.Action<int> OnAttack;
     
 
     private void Start()
@@ -62,10 +64,12 @@ public class Sheletrini : MonoBehaviour
         if (zelenaMovement != null)
         {
             zelenaMovement.TakeDamage(1);
+             OnAttack?.Invoke(15);
         }
         else if (dardustMovement != null)
         {
             dardustMovement.TakeDamage(1);
+             OnAttack?.Invoke(15);
             canAttack = false; // Impedisce allo scheletrino di attaccare nuovamente
         }
     }
@@ -77,10 +81,11 @@ public class Sheletrini : MonoBehaviour
         isAttacking = false;
         animator.SetBool("touch", false);
         canAttack = true; // Permette allo scheletrino di attaccare di nuovo
+        
     }
     if(collision.gameObject.CompareTag("proiettile"))
     {
-        TakeDamage(3);
+        TakeDamage(15);
     }
 }
 private void Die()

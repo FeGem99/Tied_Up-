@@ -2439,7 +2439,7 @@ MonoBehaviour:
   velocita: 2.5
   distanzaMassima: 1
   animator: {fileID: 531126638}
-  maxHealth: 3
+  maxHealth: 40
 --- !u!1 &533191078
 GameObject:
   m_ObjectHideFlags: 0
