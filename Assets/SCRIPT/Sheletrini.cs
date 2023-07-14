@@ -63,13 +63,13 @@ public class Sheletrini : MonoBehaviour
         
         if (zelenaMovement != null)
         {
-            zelenaMovement.TakeDamage(1);
-             OnAttack?.Invoke(15);
+            zelenaMovement.TakeDamage(7);
+             OnAttack?.Invoke(7);
         }
         else if (dardustMovement != null)
         {
-            dardustMovement.TakeDamage(1);
-             OnAttack?.Invoke(15);
+            dardustMovement.TakeDamage(7);
+             OnAttack?.Invoke(7);
             canAttack = false; // Impedisce allo scheletrino di attaccare nuovamente
         }
     }
@@ -85,7 +85,7 @@ public class Sheletrini : MonoBehaviour
     }
     if(collision.gameObject.CompareTag("proiettile"))
     {
-        TakeDamage(15);
+        TakeDamage(5);
     }
 }
 private void Die()
