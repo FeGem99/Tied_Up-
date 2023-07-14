@@ -64,12 +64,12 @@ public class Scheletrino_pazzp : MonoBehaviour
         if (zelenaMovement != null)
         {
             zelenaMovement.TakeDamage(1);
-             OnAttack?.Invoke(15);
+             OnAttack?.Invoke(20);
         }
         else if (dardustMovement != null)
         {
             dardustMovement.TakeDamage(1);
-             OnAttack?.Invoke(15);
+             OnAttack?.Invoke(20);
             canAttack = false; // Impedisce allo scheletrino di attaccare nuovamente
         }
     }

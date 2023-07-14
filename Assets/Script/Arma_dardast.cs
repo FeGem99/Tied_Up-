@@ -21,9 +21,15 @@ public class Arma_dardast : MonoBehaviour
 
             // Infliggi danno al nemico
             Sheletrini sheletrini = collision.gameObject.GetComponent<Sheletrini>();
+        
             if (sheletrini != null)
             {
                 sheletrini.TakeDamage(20);
+            }
+            Scheletrino_pazzp schele = collision.gameObject.GetComponent<Scheletrino_pazzp>();
+            if (schele != null)
+            {
+                schele.TakeDamage(20);
             }
         }
     }
