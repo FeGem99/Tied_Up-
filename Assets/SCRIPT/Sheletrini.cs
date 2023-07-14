@@ -10,7 +10,7 @@ public class Sheletrini : MonoBehaviour
     private bool isAttacking = false;
     public float distanzaMassima = 5f;
     public Animator animator;
-    public int maxHealth = 40;
+    public int maxHealth;
 
     private int currentHealth;
 
